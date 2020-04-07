@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03985487-F91F-5D57-E3F9-6B9776F518CB" name="Employees">
+<createdBy>filip</createdBy>
+<createdTime>2020-04-07 21:58:21 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="33E3A889-D89E-EB69-7077-24964B761EC8">
+<createdBy>filip</createdBy>
+<createdTime>2020-04-07 22:10:51 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Position" id="1C41BD52-C411-32A5-5799-758D254945D1">
+<createdBy>filip</createdBy>
+<createdTime>2020-04-07 22:01:45 UTC</createdTime>
+<generatorID>B92BDD90-4636-6B8E-F8D0-F09A00222C21</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<referedAttribute>2F19B660-F17D-8C9B-791E-4C826ABCF842</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team" id="C2E4192D-F1CC-3A59-72AF-029D4D42C782">
+<createdBy>filip</createdBy>
+<createdTime>2020-04-07 22:02:53 UTC</createdTime>
+<generatorID>4F49609D-0124-5773-4AAD-D673E01A285C</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<referedAttribute>A4FD9A23-C189-984E-07B1-8DAFAC8E3EAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B673A14-F6BC-65E6-D045-8E32A6A2AFBB" name="Employees PK">
+<createdBy>filip</createdBy>
+<createdTime>2020-04-07 22:10:53 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33E3A889-D89E-EB69-7077-24964B761EC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

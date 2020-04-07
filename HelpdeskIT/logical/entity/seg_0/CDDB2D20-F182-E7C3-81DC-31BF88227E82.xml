@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCFF930E-7394-2CFA-78AE-AE62088DF723" name="Active">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDDB2D20-F182-E7C3-81DC-31BF88227E82" name="Software">
 <createdBy>filip</createdBy>
-<createdTime>2020-04-07 17:57:22 UTC</createdTime>
+<createdTime>2020-04-07 22:19:26 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
@@ -11,25 +11,35 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>332FB444-2519-E107-1E01-4CC2CB7AFD71</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Priority" id="7999B1C8-2566-57B6-0718-2695E5369C6D">
+<Attribute name="ID" id="0E64EC89-C40D-E126-06D6-93E27F92215B">
 <createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:34:54 UTC</createdTime>
-<generatorID>207EFB99-2B11-0B3B-D3F1-9A907F3D653F</generatorID>
+<createdTime>2020-04-07 22:21:22 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
 </engineerTo>
-<referedAttribute>607BCC85-6C45-88B4-B038-1B09CAAE2E06</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>40 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF78AD75-B306-8F3C-109D-BDD9667D0F8C" name="Software PK">
+<createdBy>filip</createdBy>
+<createdTime>2020-04-07 22:21:30 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E64EC89-C40D-E126-06D6-93E27F92215B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
