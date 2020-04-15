@@ -1,12 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB2D439D-5762-5A1B-4212-174F46D9322A" name="Priority">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:31:32 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F573701-DD94-CF10-5F0F-1D6AB631DBEE" name="Processing State">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 21:01:37 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
 </engineerTo>
-<typeID>4</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,31 +15,30 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Priority" id="607BCC85-6C45-88B4-B038-1B09CAAE2E06">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:31:45 UTC</createdTime>
+<Attribute name="ID" id="DB482812-666C-AE54-C757-2D189ECA0AF6">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 21:15:34 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F3AA1E00-40A2-2FDD-40F7-DC619E0C6211" name="Ticket Priority PK">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:32:00 UTC</createdTime>
+<identifier id="CA065AC3-C6EC-7A36-A34A-A640F53D2344" name="Processing State PK">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 21:15:41 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>607BCC85-6C45-88B4-B038-1B09CAAE2E06</attributeRef>
+<attributeRef>DB482812-666C-AE54-C757-2D189ECA0AF6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

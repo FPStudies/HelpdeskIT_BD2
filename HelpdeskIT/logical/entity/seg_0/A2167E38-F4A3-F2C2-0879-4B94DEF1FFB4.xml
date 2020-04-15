@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDF15D89-59F3-283B-E8DC-D97D3441B720" name="Actor">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:04:29 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2167E38-F4A3-F2C2-0879-4B94DEF1FFB4" name="Repair Team">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 18:11:45 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
@@ -16,9 +16,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Type" id="1C62ACCE-D830-3582-3E6E-61554A781161">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:04:39 UTC</createdTime>
+<Attribute name="Name" id="601C9CAF-1F24-E8E0-938A-BE0EC6A99294">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 18:12:54 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
@@ -26,21 +26,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="13DD944A-FB04-0D3D-DB6A-1579AE190FC2" name="Actor PK">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:04:55 UTC</createdTime>
+<identifier id="B2CD9E6E-2FF8-5C72-18D2-5D57B9A87CA2" name="Repair Team PK">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 18:13:13 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1C62ACCE-D830-3582-3E6E-61554A781161</attributeRef>
+<attributeRef>601C9CAF-1F24-E8E0-938A-BE0EC6A99294</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
