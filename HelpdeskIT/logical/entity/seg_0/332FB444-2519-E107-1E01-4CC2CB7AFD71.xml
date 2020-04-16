@@ -84,6 +84,22 @@
 <dataTypeSize> CHAR</dataTypeSize>
 <ownDataTypeParameters> CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Environment" id="4ADD3DE8-1CA8-D485-580E-F220BADB899F">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 18:01:57 UTC</createdTime>
+<generatorID>35DA1B72-BC88-5B43-03C0-8F11C44B77EC</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<referedAttribute>CC346704-86BD-6DB9-A1ED-DD7719653272</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Submission_Date" id="6627285F-718C-2A86-3396-EE90C7F16770">
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:29:54 UTC</createdTime>
@@ -121,25 +137,9 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Environment" id="4ADD3DE8-1CA8-D485-580E-F220BADB899F">
-<createdBy>adrian_chlebosz</createdBy>
-<createdTime>2020-04-15 18:01:57 UTC</createdTime>
-<generatorID>35DA1B72-BC88-5B43-03C0-8F11C44B77EC</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
-</engineerTo>
-<referedAttribute>CC346704-86BD-6DB9-A1ED-DD7719653272</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Name" id="8112731B-C017-2BEA-47EE-57646B4F1ACC">
+<Attribute name="Repair_Team_Name" id="8112731B-C017-2BEA-47EE-57646B4F1ACC">
 <createdBy>adrian_chlebosz</createdBy>
 <createdTime>2020-04-15 18:13:33 UTC</createdTime>
 <generatorID>06F37203-32E6-0FE8-505A-4237920E7D90</generatorID>
@@ -151,10 +151,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
+<dataTypeSize>60 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Type" id="6884D801-87C5-34DD-9793-30ECE8CE7C75">
+<Attribute name="Issue_Type" id="6884D801-87C5-34DD-9793-30ECE8CE7C75">
 <createdBy>adrian_chlebosz</createdBy>
 <createdTime>2020-04-15 18:25:45 UTC</createdTime>
 <generatorID>13BD4838-2E55-8D3C-B44E-D4CE7669831B</generatorID>
@@ -169,7 +169,7 @@
 <dataTypeSize>40 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID" id="B266EF9A-4E7F-7A8C-96C5-59F0A84E8FAE">
+<Attribute name="Processing State" id="B266EF9A-4E7F-7A8C-96C5-59F0A84E8FAE">
 <createdBy>adrian_chlebosz</createdBy>
 <createdTime>2020-04-15 21:16:56 UTC</createdTime>
 <generatorID>C993DDA7-FF0B-A810-50C1-6C78A282FCDC</generatorID>
