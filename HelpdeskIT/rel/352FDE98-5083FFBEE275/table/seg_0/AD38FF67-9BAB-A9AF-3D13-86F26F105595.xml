@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD38FF67-9BAB-A9AF-3D13-86F26F105595" name="Priority">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>BB2D439D-5762-5A1B-4212-174F46D9322A</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<typeID>4</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Priority" id="CF7A1340-3771-75D1-83B3-8DD6E6F8D881">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>607BCC85-6C45-88B4-B038-1B09CAAE2E06</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7D881E0-9E0B-D662-7330-0633FFBD7155" name="Priority_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>F3AA1E00-40A2-2FDD-40F7-DC619E0C6211</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF7A1340-3771-75D1-83B3-8DD6E6F8D881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

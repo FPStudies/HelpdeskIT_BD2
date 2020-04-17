@@ -11,7 +11,7 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>5F573701-DD94-CF10-5F0F-1D6AB631DBEE</hierarchicalParent>
+<hierarchicalParent>332FB444-2519-E107-1E01-4CC2CB7AFD71</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
@@ -32,15 +32,4 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5F6E630F-50A8-249C-860F-1E5A95DC87EC" name="Active PK">
-<createdBy>adrian_chlebosz</createdBy>
-<createdTime>2020-04-15 21:02:56 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
-</engineerTo>
-<pk>true</pk>
-</identifier>
-</identifiers>
 </Entity>

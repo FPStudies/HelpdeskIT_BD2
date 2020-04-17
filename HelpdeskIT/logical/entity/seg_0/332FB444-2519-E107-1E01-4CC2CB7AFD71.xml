@@ -15,6 +15,30 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="DDB2AE52-0893-758E-8714-D528490D26FD">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:02:30 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ticket_Number" id="B8075540-C752-A977-D4E0-F4CA0D6C65D6">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 18:38:11 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Manager_ID" id="E0449FA9-4142-8097-AE5E-D92E451C859F">
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:13:29 UTC</createdTime>
@@ -67,8 +91,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize> CHAR</dataTypeSize>
-<ownDataTypeParameters> CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Attempted_Solutions" id="5E881127-81D3-B1F8-27F1-C32FD5220DEA">
 <createdBy>filip</createdBy>
@@ -81,8 +104,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize> CHAR</dataTypeSize>
-<ownDataTypeParameters> CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Environment" id="4ADD3DE8-1CA8-D485-580E-F220BADB899F">
 <createdBy>adrian_chlebosz</createdBy>
@@ -97,7 +119,7 @@
 <use>1</use>
 <structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
+<dataTypeSize>40 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Submission_Date" id="6627285F-718C-2A86-3396-EE90C7F16770">
@@ -152,7 +174,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Issue_Type" id="6884D801-87C5-34DD-9793-30ECE8CE7C75">
 <createdBy>adrian_chlebosz</createdBy>
@@ -167,21 +189,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Processing State" id="B266EF9A-4E7F-7A8C-96C5-59F0A84E8FAE">
-<createdBy>adrian_chlebosz</createdBy>
-<createdTime>2020-04-15 21:16:56 UTC</createdTime>
-<generatorID>C993DDA7-FF0B-A810-50C1-6C78A282FCDC</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
-</engineerTo>
-<referedAttribute>DB482812-666C-AE54-C757-2D189ECA0AF6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -194,7 +202,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B266EF9A-4E7F-7A8C-96C5-59F0A84E8FAE</attributeRef>
+<attributeRef>DDB2AE52-0893-758E-8714-D528490D26FD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

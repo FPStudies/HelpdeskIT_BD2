@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2A28694-E441-6F23-784B-91347E502C01" name="Archived_Ticket_Status">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>24C449DC-7469-3E06-2F32-7CA4019CE8CD</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<typeID>4</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Status" id="9A301A6C-DC2C-EE41-0188-65656CC9D0E0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>48E72975-AF6F-2BD1-49B1-91D518D0CBEE</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6317A20-511F-36C2-E3D5-5F5827EFE0F8" referredColumn="79F75010-65F4-5E91-E5BD-462970634520"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D5FB8E7-432F-988C-5E51-CE1C1F826A69" name="Archived_Ticket_Status_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>056350E4-7217-1E35-1E7D-501EF60EC321</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A301A6C-DC2C-EE41-0188-65656CC9D0E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7171E9C-76F2-9A69-61DB-BE36D413734E" name="Archived_Ticket_Status_Ticket_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>603D7C5D-55D7-EA29-E75E-DFF949C5201D</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A301A6C-DC2C-EE41-0188-65656CC9D0E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

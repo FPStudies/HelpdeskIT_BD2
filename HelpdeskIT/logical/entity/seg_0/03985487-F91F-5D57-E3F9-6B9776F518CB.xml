@@ -27,6 +27,32 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="First_Name" id="7C3B4543-7379-E4D2-5159-9E31D14884AF">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 21:05:30 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_Name" id="A388312C-9D60-E3B8-78FE-3FD8E0D3144E">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 21:05:32 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Position" id="1C41BD52-C411-32A5-5799-758D254945D1">
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:01:45 UTC</createdTime>
@@ -56,32 +82,6 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="First Name" id="7C3B4543-7379-E4D2-5159-9E31D14884AF">
-<createdBy>adrian_chlebosz</createdBy>
-<createdTime>2020-04-15 21:05:30 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Last Name" id="A388312C-9D60-E3B8-78FE-3FD8E0D3144E">
-<createdBy>adrian_chlebosz</createdBy>
-<createdTime>2020-04-15 21:05:32 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

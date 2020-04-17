@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Environment" id="CC346704-86BD-6DB9-A1ED-DD7719653272">
+<Attribute name="OS" id="CC346704-86BD-6DB9-A1ED-DD7719653272">
 <createdBy>adrian_chlebosz</createdBy>
 <createdTime>2020-04-15 17:49:49 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -27,8 +27,8 @@
 <use>1</use>
 <structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

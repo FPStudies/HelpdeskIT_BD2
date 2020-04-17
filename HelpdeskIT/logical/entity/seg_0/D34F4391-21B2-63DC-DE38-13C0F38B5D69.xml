@@ -27,6 +27,45 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="First_Name" id="7B582180-5C6A-2B53-6303-49CED6FEBC5C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 18:57:59 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_Name" id="700D54E8-D6BD-A266-ED17-C8E169F1E276">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 18:59:17 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="2EEFEA12-19D0-2931-2ECA-A5FC7BB2D8F6">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 18:59:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9A2F94CF-7C00-F29A-7818-B5140D485940" name="Clients PK">
