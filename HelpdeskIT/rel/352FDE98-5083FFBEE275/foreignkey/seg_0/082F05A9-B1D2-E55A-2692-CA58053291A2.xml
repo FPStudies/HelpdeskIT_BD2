@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0422059B-AB62-1B1C-70AE-8D68E03ACE3A" containerWithKeyObject="F6C8233C-7AB8-6D21-AC46-CDA1275918FC" localFKIndex="E768F010-FC7B-19E0-9319-24B13CDD0C74" name="Active_Issue_type_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="082F05A9-B1D2-E55A-2692-CA58053291A2" containerWithKeyObject="34E87D11-ED52-56F5-D122-5A2B147CDDF2" localFKIndex="920B757B-718B-6756-4914-06B6F98FF867" name="Archived_Issue_Type_FK">
 <createdBy>Admin</createdBy>
-<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
 <generatorID>13BD4838-2E55-8D3C-B44E-D4CE7669831B</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <referredTableLongName>Issue_Type</referredTableLongName>

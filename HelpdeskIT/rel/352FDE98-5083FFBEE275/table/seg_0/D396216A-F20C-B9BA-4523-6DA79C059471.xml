@@ -5,6 +5,7 @@
 <generatorID>2D8765FF-FB73-0D7A-1066-55D3AF237316</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <typeID>4</typeID>
+<expectedVolumes>3</expectedVolumes>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
