@@ -1,0 +1,327 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="AB0382C8-EBBA-F5B5-698F-7E4A3C1073F9" name="Ticket">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:34:52 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<ordsAlias>view_2</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    active_ticket.ticket_number,
+    active_ticket.description,
+    active_ticket.attempted_solutions,
+    active_ticket.submission_date,
+    active_ticket.modification_date,
+    active_ticket.ticket_status,
+    active_ticket.priority,
+    active_ticket.issue_type,
+    active_ticket.software,
+    active_ticket.environment,
+    active_ticket.employee_id,
+    active_ticket.repair_team,
+    active_ticket.client_id
+FROM
+    active_ticket
+UNION ALL
+SELECT
+    archived_ticket.ticket_number,
+    archived_ticket.description,
+    archived_ticket.attempted_solutions,
+    archived_ticket.submission_date,
+    archived_ticket.modification_date,
+    archived_ticket.ticket_status,
+    archived_ticket.priority,
+    archived_ticket.software,
+    archived_ticket.issue_type,
+    archived_ticket.environment,
+    archived_ticket.employee_id,
+    archived_ticket.repair_team,
+    archived_ticket.client_id
+FROM
+    archived_ticket]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ticket_number" id="7A2F3580-1FC1-0D67-9E7C-9FB8C55057EF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>ticket_number</headerAlias>
+<reference>false</reference>
+<referencedColumn>1425B5D3-7B65-0DC2-738B-A44EB285FDFB</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="description" id="C7B1C250-29AD-960D-9336-7E4656A79520">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (4000)</dataType>
+<headerAlias>description</headerAlias>
+<reference>false</reference>
+<referencedColumn>FF54B951-BEDF-27F7-920C-B2B8990946DB</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="attempted_solutions" id="28ACA34D-F085-F9DF-4F6F-7560CA859E4F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (4000)</dataType>
+<headerAlias>attempted_solutions</headerAlias>
+<reference>false</reference>
+<referencedColumn>A072CAEC-C135-F721-ACA5-232BEC922BBF</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="submission_date" id="91487D9B-C3AB-DB4B-D687-373B96FA8F55">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>submission_date</headerAlias>
+<reference>false</reference>
+<referencedColumn>76B74027-0263-9BB2-72F9-BFD44A6A6045</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="modification_date" id="0A10340A-32E1-4F66-83CD-351405B2413F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>modification_date</headerAlias>
+<reference>false</reference>
+<referencedColumn>5B722BC5-DBAE-772E-0077-D558B6FF0C3C</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ticket_status" id="C8285611-E6B3-5937-99BF-FEDEDEDE922D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (40 CHAR)</dataType>
+<headerAlias>ticket_status</headerAlias>
+<reference>false</reference>
+<referencedColumn>DD912CB3-1F5E-E2F5-B9C9-DB8AC645BBF5</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="priority" id="4AD6174C-1076-87DF-1BCD-F67E6FAA6206">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (40 CHAR)</dataType>
+<headerAlias>priority</headerAlias>
+<reference>false</reference>
+<referencedColumn>6635C75F-CFCB-E8AB-15D4-F2770F7B15DB</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="issue_type" id="DF0AAFFC-5EDB-FBC3-DE86-2FB256D5D782">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (40 CHAR)</dataType>
+<headerAlias>issue_type</headerAlias>
+<reference>false</reference>
+<referencedColumn>678DD205-83A1-B35F-A634-85DB34B5AF7E</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="software" id="D76204CF-CE4F-E213-642C-084A15B84E5E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 CHAR)</dataType>
+<headerAlias>software</headerAlias>
+<reference>false</reference>
+<referencedColumn>EB542747-5669-3284-F12D-DFBEBE7A393E</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="environment" id="A2BC51A9-584B-DB08-BF3E-5B5CD57DCDA5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (40 CHAR)</dataType>
+<headerAlias>environment</headerAlias>
+<reference>false</reference>
+<referencedColumn>7215F0CE-5FC0-0AFC-BA3A-C274CF0343C8</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="employee_id" id="AB15573B-15E8-1423-EBC7-8CE68EEB8FE9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>employee_id</headerAlias>
+<reference>false</reference>
+<referencedColumn>2CB24575-1E6C-65FA-FEA8-2EE0D9C61709</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="repair_team" id="B987850A-D248-3CD4-AF6A-47E5610179E6">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (60 CHAR)</dataType>
+<headerAlias>repair_team</headerAlias>
+<reference>false</reference>
+<referencedColumn>C2461965-FC56-A97D-A258-6CBA54BC266B</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="client_id" id="39E74F86-EA82-40B0-BD07-E886F3789E4E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 15:42:38 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>client_id</headerAlias>
+<reference>false</reference>
+<referencedColumn>0BE93C24-CE6E-9662-CF5E-05125AD60169</referencedColumn>
+<table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>
+<tableAlias>active_ticket</tableAlias>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F6C8233C-7AB8-6D21-AC46-CDA1275918FC">
+<container>true</container>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1425B5D3-7B65-0DC2-738B-A44EB285FDFB">
+<columnName>Ticket_Number</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FF54B951-BEDF-27F7-920C-B2B8990946DB">
+<columnName>Description</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A072CAEC-C135-F721-ACA5-232BEC922BBF">
+<columnName>Attempted_Solutions</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="76B74027-0263-9BB2-72F9-BFD44A6A6045">
+<columnName>Submission_Date</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5B722BC5-DBAE-772E-0077-D558B6FF0C3C">
+<columnName>Modification_Date</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DD912CB3-1F5E-E2F5-B9C9-DB8AC645BBF5">
+<columnName>Ticket_Status</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6635C75F-CFCB-E8AB-15D4-F2770F7B15DB">
+<columnName>Priority</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="678DD205-83A1-B35F-A634-85DB34B5AF7E">
+<columnName>Issue_Type</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EB542747-5669-3284-F12D-DFBEBE7A393E">
+<columnName>Software</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7215F0CE-5FC0-0AFC-BA3A-C274CF0343C8">
+<columnName>Environment</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2CB24575-1E6C-65FA-FEA8-2EE0D9C61709">
+<columnName>Employee_ID</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C2461965-FC56-A97D-A258-6CBA54BC266B">
+<columnName>Repair_Team</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0BE93C24-CE6E-9662-CF5E-05125AD60169">
+<columnName>Client_ID</columnName>
+<tableName>Active_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="34E87D11-ED52-56F5-D122-5A2B147CDDF2">
+<container>true</container>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9264972E-18AA-D7C8-D1E7-345BFAE6D91C">
+<columnName>Employee_ID</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="96F7BDC8-E965-6B81-567E-CA34F81D7E4F">
+<columnName>Priority</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A3B77E83-156E-CED8-1ADC-EBD8A1950C51">
+<columnName>Ticket_Number</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="113793A3-7658-1D57-A860-988532E8A995">
+<columnName>Repair_Team</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8D57628C-7774-8B19-0228-1EA179A47E21">
+<columnName>Software</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E49B84F3-0803-2A0C-C4C7-099D7140F915">
+<columnName>Description</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BE440B0D-AC93-FFED-BCD7-42FE6582674A">
+<columnName>Attempted_Solutions</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1AACB487-B868-1736-ED91-FF25475127A1">
+<columnName>Modification_Date</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="51B029D2-E972-EF1C-6DAD-BA07C8D973E2">
+<columnName>Ticket_Status</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="65B420BA-4831-2907-7942-9EBB2CEC8AD5">
+<columnName>Issue_Type</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E03C283A-5B00-2F01-DDF4-F5D81E1B5376">
+<columnName>Client_ID</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="615B1B38-8B04-1812-8AA9-793A1BF71639">
+<columnName>Environment</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="50C91685-01CC-98A8-28AC-43367174D0B5">
+<columnName>Submission_Date</columnName>
+<tableName>Archived_Ticket</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>
