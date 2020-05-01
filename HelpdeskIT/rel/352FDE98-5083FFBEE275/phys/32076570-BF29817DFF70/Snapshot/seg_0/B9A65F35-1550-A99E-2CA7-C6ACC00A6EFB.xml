@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="Ticket_Queries" directorySegmentName="seg_0" id="B9A65F35-1550-A99E-2CA7-C6ACC00A6EFB">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 17:05:55 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<action>ON DEMAND</action>
+<defaultSegment>NO</defaultSegment>
+<refresh>YES</refresh>
+<refreshType>FORCE</refreshType>
+<segmentType>MASTER</segmentType>
+<subqueryChanged>false</subqueryChanged>
+<subqueryNeedsMigration>false</subqueryNeedsMigration>
+<with></with>
+</SnapshotOraclev11g>

@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Clients" directorySegmentName="seg_0" id="1B2023EE-9FFD-F1B8-8A71-DE85968F2D92">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="2D6476D7-91F1-6CF6-B44A-E471F1330B78">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Email" id="6D640CA7-D923-B474-2537-43923FA23BCF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="First_Name" id="72066758-0DDE-DCB0-0524-C834B98BBDB2">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Last_Name" id="A696152E-87F6-45AC-5FF2-DA1005979384">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Clients_PK" id="9E648C5C-1544-7666-375C-0CBA59DE76A4">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

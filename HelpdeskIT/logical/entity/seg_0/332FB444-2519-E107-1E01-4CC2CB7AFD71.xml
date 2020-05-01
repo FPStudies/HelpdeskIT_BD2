@@ -4,7 +4,7 @@
 <createdTime>2020-04-07 17:55:01 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2020-04-17 19:02:30 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-04-17 18:38:11 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <generatorID>4E3343D7-897D-2CCB-AC58-FAA70D193580</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <referedAttribute>33E3A889-D89E-EB69-7077-24964B761EC8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,7 +59,7 @@
 <generatorID>3DFE4491-CEE3-A246-EE1F-B847E393C79D</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <referedAttribute>4E801B93-005C-6D2A-F828-483618BA18C0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -67,18 +67,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Software_ID" id="1779B873-F3A9-F522-03DB-9B379B4B838F">
+<Attribute name="Name" id="1779B873-F3A9-F522-03DB-9B379B4B838F">
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:21:33 UTC</createdTime>
 <generatorID>DD473910-6637-4968-0B69-0693BDC7B72E</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <referedAttribute>0E64EC89-C40D-E126-06D6-93E27F92215B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Description" id="D6D987E5-FBAF-16C2-2265-83B82E122211">
@@ -86,7 +87,7 @@
 <createdTime>2020-04-07 22:25:29 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -98,7 +99,7 @@
 <createdTime>2020-04-07 22:27:10 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -112,7 +113,7 @@
 <generatorID>35DA1B72-BC88-5B43-03C0-8F11C44B77EC</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <referedAttribute>CC346704-86BD-6DB9-A1ED-DD7719653272</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -120,14 +121,14 @@
 <structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Submission_Date" id="6627285F-718C-2A86-3396-EE90C7F16770">
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:29:54 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -139,7 +140,7 @@
 <createdTime>2020-04-07 22:30:16 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -152,7 +153,7 @@
 <generatorID>A1B9D4FF-0A16-EB5C-A579-41CB8CFE24FC</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <referedAttribute>607BCC85-6C45-88B4-B038-1B09CAAE2E06</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -167,7 +168,7 @@
 <generatorID>06F37203-32E6-0FE8-505A-4237920E7D90</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <referedAttribute>601C9CAF-1F24-E8E0-938A-BE0EC6A99294</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -182,7 +183,7 @@
 <generatorID>13BD4838-2E55-8D3C-B44E-D4CE7669831B</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <referedAttribute>E9646435-03B4-33A5-02A7-B6BF0E76D5F1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -197,8 +198,9 @@
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:13:20 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

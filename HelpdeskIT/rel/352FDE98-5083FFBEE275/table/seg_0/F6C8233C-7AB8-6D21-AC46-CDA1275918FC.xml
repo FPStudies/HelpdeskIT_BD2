@@ -288,6 +288,16 @@
 <colUsage columnID="C2461965-FC56-A97D-A258-6CBA54BC266B"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="6405ADBD-255B-3960-43BA-215B9D2DAB8A" name="Active_Number__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:59:26 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1425B5D3-7B65-0DC2-738B-A44EB285FDFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="3FBE693F-41F2-368A-BC9E-47938BF14F97" name="Active_Client__IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:20:40 UTC</createdTime>
@@ -395,4 +405,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Active_Resonable_Date" directorySegmentName="seg_0" id="E372D249-FAA2-6528-4D12-A77F8F40E5B7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 17:17:47 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<rule><![CDATA[Submission_Date >= TO_DATE('2020-01-01', 'yyyy-mm-dd') AND Modification_Date >= TO_DATE('2020-01-01', 'yyyy-mm-dd')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>
