@@ -3,13 +3,13 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 17:05:55 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
-<action>ON DEMAND</action>
-<build>DEFERRED</build>
 <defaultSegment>NO</defaultSegment>
+<nextDate>sysdate + 1/2</nextDate>
 <refresh>YES</refresh>
 <refreshType>FORCE</refreshType>
 <segmentType>MASTER</segmentType>
+<startDate>sysdate</startDate>
 <subquery><![CDATA[SELECT * FROM ARCHIVED_TICKET WHERE TICKET_STATUS = "DROPPED"]]></subquery>
 <subqueryNeedsMigration>false</subqueryNeedsMigration>
-<with></with>
+<with>ROWID</with>
 </SnapshotOraclev11g>
