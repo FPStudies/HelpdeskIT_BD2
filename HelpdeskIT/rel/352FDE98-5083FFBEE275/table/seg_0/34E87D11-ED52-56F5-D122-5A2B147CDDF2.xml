@@ -232,7 +232,7 @@
 <colUsage columnID="96F7BDC8-E965-6B81-567E-CA34F81D7E4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3B91714F-B437-D388-9F4D-87E685DB548F" name="Archived_Software_ID_IDX">
+<ind_PK_UK id="3B91714F-B437-D388-9F4D-87E685DB548F" name="Archived_Software_IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:21:47 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

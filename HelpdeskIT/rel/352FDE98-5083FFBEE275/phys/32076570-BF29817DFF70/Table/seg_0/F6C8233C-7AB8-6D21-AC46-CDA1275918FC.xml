@@ -91,7 +91,7 @@
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Priority__IDXv" id="5DD6AE27-64BD-3C79-1B85-B32A5FE741ED">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Priority__IDX" id="5DD6AE27-64BD-3C79-1B85-B32A5FE741ED">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

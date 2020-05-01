@@ -234,7 +234,7 @@
 <colUsage columnID="DD912CB3-1F5E-E2F5-B9C9-DB8AC645BBF5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5DD6AE27-64BD-3C79-1B85-B32A5FE741ED" name="Active_Priority__IDXv">
+<ind_PK_UK id="5DD6AE27-64BD-3C79-1B85-B32A5FE741ED" name="Active_Priority__IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:20:40 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
