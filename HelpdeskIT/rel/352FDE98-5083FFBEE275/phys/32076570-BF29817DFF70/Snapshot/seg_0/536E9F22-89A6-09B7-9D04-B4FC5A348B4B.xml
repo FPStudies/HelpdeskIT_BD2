@@ -8,7 +8,7 @@
 <refresh>YES</refresh>
 <refreshType>FORCE</refreshType>
 <startDate>SYSDATE</startDate>
-<subquery><![CDATA[SELECT * FROM ARCHIVED_TICKET WHERE TICKET_STATUS = "SOLVED"]]></subquery>
+<subquery><![CDATA[SELECT * FROM ARCHIVED_TICKET WHERE UPPER(TICKET_STATUS) = "SOLVED"]]></subquery>
 <subqueryNeedsMigration>false</subqueryNeedsMigration>
 <with>ROWID</with>
 </SnapshotOraclev11g>
