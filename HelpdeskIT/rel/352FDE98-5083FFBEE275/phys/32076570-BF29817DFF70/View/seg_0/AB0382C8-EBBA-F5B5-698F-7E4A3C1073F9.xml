@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="Ticket" directorySegmentName="seg_0" id="AB0382C8-EBBA-F5B5-698F-7E4A3C1073F9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</TableViewProxyOraclev10g>

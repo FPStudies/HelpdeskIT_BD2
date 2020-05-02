@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="All_Closed_Count" directorySegmentName="seg_0" id="DA34156A-2221-7DD6-6CC8-57771E70402D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 23:00:45 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<defaultSegment>NO</defaultSegment>
+<nextDate>SYSDATE + 1/2</nextDate>
+<refresh>YES</refresh>
+<refreshType>FORCE</refreshType>
+<startDate>SYSDATE</startDate>
+<subquery><![CDATA[SELECT COUNT(*) FROM ARCHIVED_TICKET WHERE UPPER(TICKET_STATUS) IN ("DROPPED", "SOLVED")]]></subquery>
+<subqueryNeedsMigration>false</subqueryNeedsMigration>
+<with>ROWID</with>
+</SnapshotOraclev11g>

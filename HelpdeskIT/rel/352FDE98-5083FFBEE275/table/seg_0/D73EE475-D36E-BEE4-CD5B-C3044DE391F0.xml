@@ -5,6 +5,8 @@
 <generatorID>213E55F8-89AE-9D66-093A-0A732BF48515</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <typeID>4</typeID>
+<expectedVolumes>5</expectedVolumes>
+<maxVolumes>100</maxVolumes>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -18,11 +20,8 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="381B3F9A-0041-2265-9911-E9F754176DDC" referredColumn="79F75010-65F4-5E91-E5BD-462970634520"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -33,17 +32,6 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8F5F080B-A4A7-976B-006F-0DAC34CCE01D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7E9FF77C-E4E4-E501-1DE2-0ECD5067E226" name="Active_Ticket_Status_Ticket_Status_FK">
-<createdBy>Admin</createdBy>
-<createdTime>2020-04-17 19:04:58 UTC</createdTime>
-<generatorID>F3CBDEE8-B118-BC91-B3D3-186AE8967C29</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8F5F080B-A4A7-976B-006F-0DAC34CCE01D"/>

@@ -9,15 +9,15 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="84B5E599-6487-E2ED-9657-4238DCF23B84">
+<Column name="Name" id="17F9D27F-FAC9-BDE7-2A08-8DF2CDF070E6">
 <createdBy>Admin</createdBy>
-<createdTime>2020-04-17 19:04:58 UTC</createdTime>
-<generatorID>0E64EC89-C40D-E126-06D6-93E27F92215B</generatorID>
+<createdTime>2020-05-01 12:51:31 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -31,7 +31,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="84B5E599-6487-E2ED-9657-4238DCF23B84"/>
+<colUsage columnID="17F9D27F-FAC9-BDE7-2A08-8DF2CDF070E6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

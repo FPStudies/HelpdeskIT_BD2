@@ -29,6 +29,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Last_Name" id="A696152E-87F6-45AC-5FF2-DA1005979384">
@@ -41,6 +42,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Email" id="6D640CA7-D923-B474-2537-43923FA23BCF">
@@ -53,6 +55,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

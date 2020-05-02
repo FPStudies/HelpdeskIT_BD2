@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7753C773-F486-9FAD-D6D3-1DC542F40839" containerWithKeyObject="EE360E74-7C9F-4510-9703-3F646CCAFA8E" localFKIndex="0891E5FC-C22B-C2EA-A6F6-BB7BA1C419EA" name="Archived_Archived_Ticket_Status_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7AD4F1D-5E0F-2782-4969-7A0A198FB376" containerWithKeyObject="34E87D11-ED52-56F5-D122-5A2B147CDDF2" localFKIndex="2D5B13DE-0DF0-052B-CFF0-B21E424DA3BD" name="Archived_Ticket_Status_FK">
 <createdBy>Admin</createdBy>
-<createdTime>2020-04-17 19:04:58 UTC</createdTime>
-<generatorID>D9542FCD-11E7-F0D0-DE83-43A5D6E57A6D</generatorID>
+<createdTime>2020-05-01 14:25:00 UTC</createdTime>
+<generatorID>056350E4-7217-1E35-1E7D-501EF60EC321</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <referredTableLongName>Archived_Ticket_Status</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
