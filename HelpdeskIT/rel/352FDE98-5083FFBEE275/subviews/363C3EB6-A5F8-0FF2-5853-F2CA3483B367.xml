@@ -246,7 +246,7 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="1503" y="1484"/>
-<point x="1503" y="1544"/>
+<point x="1503" y="1546"/>
 <point x="316" y="1546"/>
 <point x="316" y="1226"/>
 </points>
@@ -285,8 +285,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2188" y="1517"/>
-<point x="2188" y="1606"/>
+<point x="2189" y="1517"/>
+<point x="2189" y="1606"/>
 <point x="124" y="1607"/>
 <point x="124" y="1226"/>
 </points>
