@@ -17,19 +17,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Ticket_Number" id="205D1405-AD64-BF3E-9971-3A96A351B967">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 13:37:12 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Attempted_Solutions" id="1EED401C-B29B-AA1B-BB00-68FA7BA8EC25">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 13:38:50 UTC</createdTime>
@@ -71,7 +58,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID" id="C8DCCAC0-19A8-4DF9-C7B6-31AC9E158699">
 <createdBy>Admin</createdBy>

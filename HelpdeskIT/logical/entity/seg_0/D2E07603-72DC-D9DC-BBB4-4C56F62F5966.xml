@@ -1,12 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6B23EC3-4E6F-38C5-E816-7F64FB3267A3" name="Attachment">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2E07603-72DC-D9DC-BBB4-4C56F62F5966" name="SLA">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-07 14:00:50 UTC</createdTime>
+<createdTime>2020-05-07 14:46:09 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 <item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
 </engineerTo>
+<typeID>4</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,9 +17,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="D29AB303-9CD6-4043-07B1-B57F28895868">
+<Attribute name="Name" id="F7D6E7B0-582A-96A6-1EF6-E666792E3A60">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-07 14:01:48 UTC</createdTime>
+<createdTime>2020-05-07 14:46:17 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
@@ -26,32 +27,18 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="File" id="98202038-83E1-2638-F14D-081675BF404E">
+<Attribute name="Response_Time" id="01164E72-9796-B720-FC5E-C196CDDDEC5C">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-07 14:31:17 UTC</createdTime>
+<createdTime>2020-05-07 14:46:28 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 <item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10009</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Message_ID" id="AE5FE6C2-B951-EA83-3231-DE4AA739D281">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 14:01:30 UTC</createdTime>
-<generatorID>252AF67F-A72C-7E8D-03DB-01BCE31DA381</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
-</engineerTo>
-<referedAttribute>36D91CEB-60BD-58A3-E301-7A5EFB9A92E0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -59,9 +46,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5391E9A5-1D89-E135-7690-8769A1ECF40D" name="Attachment PK">
+<identifier id="B77BC120-E9F5-D7C7-5E9A-6343C2A40CE5" name="SLA PK">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-07 14:02:23 UTC</createdTime>
+<createdTime>2020-05-07 14:46:26 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
@@ -69,7 +56,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D29AB303-9CD6-4043-07B1-B57F28895868</attributeRef>
+<attributeRef>F7D6E7B0-582A-96A6-1EF6-E666792E3A60</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
