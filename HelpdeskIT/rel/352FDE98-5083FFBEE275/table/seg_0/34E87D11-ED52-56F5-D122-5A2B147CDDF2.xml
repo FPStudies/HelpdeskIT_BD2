@@ -169,22 +169,6 @@
 <colAssociation fkAssociation="10C9033D-125C-B44E-1C77-FC2A9C215F35" referredColumn="AEE221F0-C9CB-267B-D863-078FD0B4785E"/>
 </associations>
 </Column>
-<Column name="Repair_Team" id="113793A3-7658-1D57-A860-988532E8A995">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:21:47 UTC</createdTime>
-<generatorID>8112731B-C017-2BEA-47EE-57646B4F1ACC</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="12A69DA4-9020-F4E2-EADB-59E7812D7371" referredColumn="86AB9541-B9ED-13CC-9249-AFD83CE1EF52"/>
-</associations>
-</Column>
 <Column name="Client_ID" id="E03C283A-5B00-2F01-DDF4-F5D81E1B5376">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:21:47 UTC</createdTime>
@@ -273,9 +257,6 @@
 <createdTime>2020-05-01 14:21:47 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="113793A3-7658-1D57-A860-988532E8A995"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="26AA484A-771A-447D-8898-F9E399C831C1" name="Archived_Client__IDX">
 <createdBy>Admin</createdBy>
@@ -345,17 +326,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="96F7BDC8-E965-6B81-567E-CA34F81D7E4F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B009D001-5F10-6C8A-AC58-D98CB343394C" name="Archived_Repair_Team_FK">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:21:47 UTC</createdTime>
-<generatorID>06F37203-32E6-0FE8-505A-4237920E7D90</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="113793A3-7658-1D57-A860-988532E8A995"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="84B73F40-92D8-B798-1077-D4315C5ED2B1" name="Archived_Clients_FK">

@@ -170,22 +170,6 @@
 <colAssociation fkAssociation="E54F98FF-4501-4101-DBB9-CE843C523678" referredColumn="AEE221F0-C9CB-267B-D863-078FD0B4785E"/>
 </associations>
 </Column>
-<Column name="Repair_Team" id="C2461965-FC56-A97D-A258-6CBA54BC266B">
-<createdBy>Admin</createdBy>
-<createdTime>2020-04-17 19:04:58 UTC</createdTime>
-<generatorID>8112731B-C017-2BEA-47EE-57646B4F1ACC</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="AFE8AE19-F0AF-8E49-AFC6-961A00F1F570" referredColumn="86AB9541-B9ED-13CC-9249-AFD83CE1EF52"/>
-</associations>
-</Column>
 <Column name="Client_ID" id="0BE93C24-CE6E-9662-CF5E-05125AD60169">
 <createdBy>Admin</createdBy>
 <createdTime>2020-04-17 19:04:58 UTC</createdTime>
@@ -284,9 +268,6 @@
 <createdTime>2020-05-01 14:20:40 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C2461965-FC56-A97D-A258-6CBA54BC266B"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="6405ADBD-255B-3960-43BA-215B9D2DAB8A" name="Active_Number__IDX">
 <createdBy>Admin</createdBy>
@@ -358,17 +339,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7215F0CE-5FC0-0AFC-BA3A-C274CF0343C8"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3EBE5E35-0416-79A3-626B-907970356F74" name="Active_Repair_Team_FK">
-<createdBy>Admin</createdBy>
-<createdTime>2020-04-17 19:04:58 UTC</createdTime>
-<generatorID>06F37203-32E6-0FE8-505A-4237920E7D90</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C2461965-FC56-A97D-A258-6CBA54BC266B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="E768F010-FC7B-19E0-9319-24B13CDD0C74" name="Active_Issue_type_FK">

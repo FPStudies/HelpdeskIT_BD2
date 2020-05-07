@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D34F4391-21B2-63DC-DE38-13C0F38B5D69" name="Clients">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:08:30 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E85B372F-6D01-DCFA-A2BB-CF2709CA49C8" name="Message">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:52:44 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
@@ -16,9 +16,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="4E801B93-005C-6D2A-F828-483618BA18C0">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:18:25 UTC</createdTime>
+<Attribute name="ID" id="36D91CEB-60BD-58A3-E301-7A5EFB9A92E0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:53:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
@@ -29,37 +29,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="First_Name" id="7B582180-5C6A-2B53-6303-49CED6FEBC5C">
+<Attribute name="Sender" id="E18A1DBB-39B6-E903-F09E-78F85938E70B">
 <createdBy>Admin</createdBy>
-<createdTime>2020-04-17 18:57:59 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Last_Name" id="700D54E8-D6BD-A266-ED17-C8E169F1E276">
-<createdBy>Admin</createdBy>
-<createdTime>2020-04-17 18:59:17 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Email" id="2EEFEA12-19D0-2931-2ECA-A5FC7BB2D8F6">
-<createdBy>Admin</createdBy>
-<createdTime>2020-04-17 18:59:35 UTC</createdTime>
+<createdTime>2020-05-07 13:53:49 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
@@ -71,9 +43,9 @@
 <dataTypeSize>40 CHAR</dataTypeSize>
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Password" id="A6AFC279-5479-152B-4694-C5A0129CDA79">
+<Attribute name="Receiver" id="24E07042-67DA-CDDB-F126-0A85A1A6E730">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-07 13:32:03 UTC</createdTime>
+<createdTime>2020-05-07 13:54:05 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
@@ -84,12 +56,73 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Topic" id="D191AF88-1682-6E77-1F70-07DEBACFAD70">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:54:24 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Content" id="7A4B580A-E826-6DB3-C7A3-9A52844FBD77">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:56:10 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize> CHAR</dataTypeSize>
+<ownDataTypeParameters> CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="D5A859F0-0E37-D15F-4D48-16D71A68F8DE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:59:22 UTC</createdTime>
+<generatorID>156C2F34-1F76-D439-3F5F-8FCD88B6D949</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<referedAttribute>DDB2AE52-0893-758E-8714-D528490D26FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="005C244E-BA2B-2198-C92B-77DE62507B14">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 14:02:45 UTC</createdTime>
+<generatorID>63C4E9E8-B5BD-84FA-297A-155DC27634E3</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>36D91CEB-60BD-58A3-E301-7A5EFB9A92E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9A2F94CF-7C00-F29A-7818-B5140D485940" name="Clients PK">
-<createdBy>filip</createdBy>
-<createdTime>2020-04-07 22:18:33 UTC</createdTime>
+<identifier id="B6EA593E-B076-F149-0B5E-7C60FEEB62F3" name="Message PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:54:41 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
@@ -97,7 +130,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4E801B93-005C-6D2A-F828-483618BA18C0</attributeRef>
+<attributeRef>36D91CEB-60BD-58A3-E301-7A5EFB9A92E0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

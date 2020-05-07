@@ -38,6 +38,7 @@ SELECT
     archived_ticket.client_id
 FROM
     archived_ticket]]></userDefinedSQL>
+<validSQL>false</validSQL>
 <parsed>true</parsed>
 <viewElements>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ticket_number" id="7A2F3580-1FC1-0D67-9E7C-9FB8C55057EF">
