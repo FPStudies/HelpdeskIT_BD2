@@ -58,6 +58,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8951961F-55F6-F8EA-2863-ADE89C0C061B"/>
+<colUsage columnID="3EA0C890-47B0-3D17-1C1C-3C57254E05A1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="0D82391F-1A7D-BA7F-91E6-63A4C7C7FCD6" name="Attachments_Msg_ID__IDX">

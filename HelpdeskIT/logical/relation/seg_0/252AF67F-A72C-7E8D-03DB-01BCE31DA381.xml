@@ -5,10 +5,9 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
 </engineerTo>
 <sourcePk>B6EA593E-B076-F149-0B5E-7C60FEEB62F3</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

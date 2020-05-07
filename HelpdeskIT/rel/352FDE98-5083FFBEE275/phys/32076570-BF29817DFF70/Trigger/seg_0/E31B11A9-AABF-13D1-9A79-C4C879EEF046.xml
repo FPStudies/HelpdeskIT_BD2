@@ -5,7 +5,7 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <actions>INSERT</actions>
 <body><![CDATA[BEGIN
-SELECT Employees_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
+SELECT Employe_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
 END;]]></body>
 <triggerTime>BEFORE</triggerTime>
 <table>7DD26B21-E1B3-0E7C-F726-4D46324FEFA3</table>
