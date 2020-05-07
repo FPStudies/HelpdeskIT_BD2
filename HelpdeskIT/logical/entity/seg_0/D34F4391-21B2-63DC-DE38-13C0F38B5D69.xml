@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D34F4391-21B2-63DC-DE38-13C0F38B5D69" name="Clients">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D34F4391-21B2-63DC-DE38-13C0F38B5D69" name="Client">
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:08:30 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2020-04-07 22:18:25 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-04-17 18:57:59 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2020-04-17 18:59:17 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,20 @@
 <createdTime>2020-04-17 18:59:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="A6AFC279-5479-152B-4694-C5A0129CDA79">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:32:03 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,7 +86,7 @@
 <createdTime>2020-04-07 22:18:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
-<item key="70A13AAC-EFA1-6039-E5B6-22153185E26C" value="true"/>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

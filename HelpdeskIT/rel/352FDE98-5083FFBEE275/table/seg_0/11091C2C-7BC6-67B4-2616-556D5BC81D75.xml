@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11091C2C-7BC6-67B4-2616-556D5BC81D75" name="Attachments">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>C6B23EC3-4E6F-38C5-E816-7F64FB3267A3</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<ordsAlias>attachment</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8951961F-55F6-F8EA-2863-ADE89C0C061B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>D29AB303-9CD6-4043-07B1-B57F28895868</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="File" id="A87E1D92-312A-C9ED-666C-1F09BF9C9576">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>98202038-83E1-2638-F14D-081675BF404E</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10009</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Message_ID" id="3EA0C890-47B0-3D17-1C1C-3C57254E05A1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>AE5FE6C2-B951-EA83-3231-DE4AA739D281</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="486E4616-2F86-3903-D620-EFA9D66F45F2" referredColumn="A17D4E52-53CB-81FD-4247-5BBC57F95021"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CC268BF-3213-5929-658F-518B79EB4D6F" name="Attachments_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>5391E9A5-1D89-E135-7690-8769A1ECF40D</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8951961F-55F6-F8EA-2863-ADE89C0C061B"/>
+<colUsage columnID="3EA0C890-47B0-3D17-1C1C-3C57254E05A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D82391F-1A7D-BA7F-91E6-63A4C7C7FCD6" name="Attachments_Msg_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:06:12 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA0C890-47B0-3D17-1C1C-3C57254E05A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92D49811-9D9F-A7AC-AF4C-1607DA10345D" name="Attachments_Message_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>252AF67F-A72C-7E8D-03DB-01BCE31DA381</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA0C890-47B0-3D17-1C1C-3C57254E05A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E766FDED-42BA-4AAC-5716-D5481D10E06B" name="Messages">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>E85B372F-6D01-DCFA-A2BB-CF2709CA49C8</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<ordsAlias>message</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A17D4E52-53CB-81FD-4247-5BBC57F95021">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>36D91CEB-60BD-58A3-E301-7A5EFB9A92E0</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sender" id="4201D45C-6CB9-0AA7-0898-5EB3804EE4E5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>E18A1DBB-39B6-E903-F09E-78F85938E70B</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Receiver" id="70602D24-BBBE-50CD-9747-AD7D57A1004E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>24E07042-67DA-CDDB-F126-0A85A1A6E730</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="C57CF3A9-2F87-093D-36D0-A040DD9A5C95">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:02:27 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Topic" id="BCBA5B27-92A8-EEBE-2B8C-673FC52F6B98">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>D191AF88-1682-6E77-1F70-07DEBACFAD70</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Content" id="154007C0-C0E7-7D9F-00CB-69159153E3FF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>7A4B580A-E826-6DB3-C7A3-9A52844FBD77</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ticket_Number" id="13045B8C-09D8-AB6A-02A0-0F548A801FEB">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>D5A859F0-0E37-D15F-4D48-16D71A68F8DE</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Previous_Msg_ID" id="C9BC0E2B-C279-9D62-B08D-862FFD0D1167">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>005C244E-BA2B-2198-C92B-77DE62507B14</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D6E0B36-6BDE-36AA-963C-0F41D8D012E5" referredColumn="A17D4E52-53CB-81FD-4247-5BBC57F95021"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1B40EB3-89DA-EDC0-E648-357CFD99A1D1" name="Messages_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>B6EA593E-B076-F149-0B5E-7C60FEEB62F3</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A17D4E52-53CB-81FD-4247-5BBC57F95021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="564B1C0C-8876-6695-257B-5852723CE03F" name="Messages_Prev_Msg__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9BC0E2B-C279-9D62-B08D-862FFD0D1167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32936717-C644-715F-6FB8-7A211B5F83D3" name="Messages_Ticket_Num__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:07:41 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13045B8C-09D8-AB6A-02A0-0F548A801FEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AADF2D4-E2E6-6784-F53D-B06560B844DF" name="Messages_Messages_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>63C4E9E8-B5BD-84FA-297A-155DC27634E3</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9BC0E2B-C279-9D62-B08D-862FFD0D1167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

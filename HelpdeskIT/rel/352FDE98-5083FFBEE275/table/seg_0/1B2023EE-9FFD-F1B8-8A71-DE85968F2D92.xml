@@ -58,6 +58,17 @@
 <containsPII>true</containsPII>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Password" id="8946E5E7-BCD7-2687-ECD3-263957103E1A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:12:55 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9E648C5C-1544-7666-375C-0CBA59DE76A4" name="Clients_PK">

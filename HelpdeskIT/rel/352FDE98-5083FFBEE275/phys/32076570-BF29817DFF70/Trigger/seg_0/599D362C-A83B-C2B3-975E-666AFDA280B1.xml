@@ -6,8 +6,8 @@
 <actions>UPDATE, DELETE</actions>
 <body><![CDATA[BEGIN
 SELECT SYSDATE INTO :NEW.Modification_Date FROM DUAL;
-INSERT INTO Archived_Ticket(Ticket_Number, Description, Attempted_Solutions, Submission_Date, Modification_Date, Ticket_Status, Priority, Software, Issue_Type, Environment, Employee_ID, Repair_Team, Client_ID)
-VALUES (:OLD.Ticket_Number, :OLD.Description, :OLD.Attempted_Solutions, :OLD.Submission_Date, :OLD.Modification_Date, :OLD.Ticket_Status, :OLD.Priority, :OLD.Software, :OLD.Issue_Type, :OLD.Environment, :OLD.Employee_ID, :OLD.Repair_Team, :OLD.Client_ID);
+INSERT INTO Archived_Tickets(Ticket_Number, Description, Attempted_Solutions, Submission_Date, Modification_Date, Due_Date, Ticket_Status, Priority, Software, Issue_Type, Environment, Employee_ID, Client_ID)
+VALUES (:OLD.Ticket_Number, :OLD.Description, :OLD.Attempted_Solutions, :OLD.Submission_Date, :OLD.Modification_Date, :OLD.Due_Date, :OLD.Ticket_Status, :OLD.Priority, :OLD.Software, :OLD.Issue_Type, :OLD.Environment, :OLD.Employee_ID, :OLD.Client_ID);
 END;]]></body>
 <triggerTime>BEFORE</triggerTime>
 <table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>

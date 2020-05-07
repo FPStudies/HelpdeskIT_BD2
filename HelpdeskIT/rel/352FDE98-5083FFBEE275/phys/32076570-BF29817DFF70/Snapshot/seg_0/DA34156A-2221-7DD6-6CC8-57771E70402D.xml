@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="All_Closed_Count" directorySegmentName="seg_0" id="DA34156A-2221-7DD6-6CC8-57771E70402D">
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="All_Closed_Count_MV" directorySegmentName="seg_0" id="DA34156A-2221-7DD6-6CC8-57771E70402D">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 23:00:45 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -8,7 +8,7 @@
 <refresh>YES</refresh>
 <refreshType>FORCE</refreshType>
 <startDate>SYSDATE</startDate>
-<subquery><![CDATA[SELECT COUNT(*) FROM ARCHIVED_TICKET WHERE UPPER(TICKET_STATUS) IN ("DROPPED", "SOLVED")]]></subquery>
+<subquery><![CDATA[SELECT to_char(Modification_Date, 'YYYY') AS Year, to_char(Modification_Date, 'MM') AS Month, to_char(Modification_Date, 'DD') AS Day, COUNT(*) AS Count FROM ARCHIVED_TICKET WHERE UPPER(TICKET_STATUS) IN ("DROPPED", "SOLVED") GROUP BY ROLLUP to_char(Modification_Date, 'YYYY'), to_char(Modification_Date, 'MM'), to_char(Modification_Date, 'DD')]]></subquery>
 <subqueryNeedsMigration>false</subqueryNeedsMigration>
 <with>ROWID</with>
 </SnapshotOraclev11g>

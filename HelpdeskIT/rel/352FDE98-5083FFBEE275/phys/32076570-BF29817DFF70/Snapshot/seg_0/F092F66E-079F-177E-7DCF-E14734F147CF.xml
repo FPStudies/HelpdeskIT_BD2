@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="All_Closed" directorySegmentName="seg_0" id="F092F66E-079F-177E-7DCF-E14734F147CF">
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="All_Closed_MV" directorySegmentName="seg_0" id="F092F66E-079F-177E-7DCF-E14734F147CF">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 23:00:31 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

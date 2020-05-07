@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34E87D11-ED52-56F5-D122-5A2B147CDDF2" name="Archived_Ticket">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34E87D11-ED52-56F5-D122-5A2B147CDDF2" name="Archived_Tickets">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:21:47 UTC</createdTime>
 <generatorID>332FB444-2519-E107-1E01-4CC2CB7AFD71</generatorID>
@@ -70,6 +70,17 @@
 <createdTime>2020-05-01 14:21:47 UTC</createdTime>
 <generatorID>AB820FE7-B487-E6A6-5DE2-BE005596CDC0</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Due_Date" id="8C4B439F-DD20-6198-842E-AE6830FF3209">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:14:18 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -169,22 +180,6 @@
 <colAssociation fkAssociation="10C9033D-125C-B44E-1C77-FC2A9C215F35" referredColumn="AEE221F0-C9CB-267B-D863-078FD0B4785E"/>
 </associations>
 </Column>
-<Column name="Repair_Team" id="113793A3-7658-1D57-A860-988532E8A995">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:21:47 UTC</createdTime>
-<generatorID>8112731B-C017-2BEA-47EE-57646B4F1ACC</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="12A69DA4-9020-F4E2-EADB-59E7812D7371" referredColumn="86AB9541-B9ED-13CC-9249-AFD83CE1EF52"/>
-</associations>
-</Column>
 <Column name="Client_ID" id="E03C283A-5B00-2F01-DDF4-F5D81E1B5376">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:21:47 UTC</createdTime>
@@ -202,7 +197,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5F717279-E28F-4750-0EEF-2D3CFA77B6FF" name="Archived_Ticket_PK">
+<ind_PK_UK id="5F717279-E28F-4750-0EEF-2D3CFA77B6FF" name="Archived_Tickets_PK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:21:47 UTC</createdTime>
 <generatorID>E5B39AB1-F3F8-A5A4-DE03-47A7D737DEF1</generatorID>
@@ -212,6 +207,34 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7BEE3D57-AFC4-DD42-E864-F20AFBF5FD97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3517A816-F27B-1CEF-F17D-9176C0A8B6D7" name="Archived_Number__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 17:00:11 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B77E83-156E-CED8-1ADC-EBD8A1950C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06618B89-0CDA-B8F3-6A2B-092FCAABB744" name="Archived_Submission_Date_IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50C91685-01CC-98A8-28AC-43367174D0B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF8F1732-F563-3883-07D3-1B11EE33B8F4" name="Archived_Change_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:38:18 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AACB487-B868-1736-ED91-FF25475127A1"/>
+<colUsage columnID="51B029D2-E972-EF1C-6DAD-BA07C8D973E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="30885D33-F48B-AE59-A1CA-A9EAB50286EE" name="Archived_Status__IDX">
@@ -268,15 +291,6 @@
 <colUsage columnID="9264972E-18AA-D7C8-D1E7-345BFAE6D91C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="14567AB6-3602-8A98-D42B-3F9EEFCDBE3E" name="Archived_Repair_Team_IDX">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:21:47 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="113793A3-7658-1D57-A860-988532E8A995"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="26AA484A-771A-447D-8898-F9E399C831C1" name="Archived_Client__IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:39:14 UTC</createdTime>
@@ -284,34 +298,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E03C283A-5B00-2F01-DDF4-F5D81E1B5376"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3517A816-F27B-1CEF-F17D-9176C0A8B6D7" name="Archived_Number__IDX">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 17:00:11 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A3B77E83-156E-CED8-1ADC-EBD8A1950C51"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="06618B89-0CDA-B8F3-6A2B-092FCAABB744" name="Archived_Submission_Date_IDX">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:21:47 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="50C91685-01CC-98A8-28AC-43367174D0B5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="AF8F1732-F563-3883-07D3-1B11EE33B8F4" name="Archived_Change_Date__IDX">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:38:18 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1AACB487-B868-1736-ED91-FF25475127A1"/>
-<colUsage columnID="51B029D2-E972-EF1C-6DAD-BA07C8D973E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="920B757B-718B-6756-4914-06B6F98FF867" name="Archived_Issue_Type_FK">
@@ -345,17 +331,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="96F7BDC8-E965-6B81-567E-CA34F81D7E4F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B009D001-5F10-6C8A-AC58-D98CB343394C" name="Archived_Repair_Team_FK">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:21:47 UTC</createdTime>
-<generatorID>06F37203-32E6-0FE8-505A-4237920E7D90</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="113793A3-7658-1D57-A860-988532E8A995"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="84B73F40-92D8-B798-1077-D4315C5ED2B1" name="Archived_Clients_FK">

@@ -45,6 +45,28 @@
 <containsPII>true</containsPII>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Email" id="0D788FD6-1B14-52B9-18E4-40C641EDBEF7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:54:00 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="A3D72A8B-4D8B-8CC2-4B00-FFCE18775442">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:54:16 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Position" id="FBBB6F56-D448-247F-860B-F2AC2114D421">
 <createdBy>Admin</createdBy>
 <createdTime>2020-04-17 19:04:58 UTC</createdTime>
