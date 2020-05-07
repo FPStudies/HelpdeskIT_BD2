@@ -57,6 +57,19 @@
 <dataTypeSize>40 CHAR</dataTypeSize>
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Date" id="BF65404E-4EE6-48C7-1690-07F63C21A75F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:01:26 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Topic" id="D191AF88-1682-6E77-1F70-07DEBACFAD70">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 13:54:24 UTC</createdTime>

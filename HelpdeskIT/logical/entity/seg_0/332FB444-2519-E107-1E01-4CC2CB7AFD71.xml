@@ -97,7 +97,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Name" id="1779B873-F3A9-F522-03DB-9B379B4B838F">
+<Attribute name="Software" id="1779B873-F3A9-F522-03DB-9B379B4B838F">
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:21:33 UTC</createdTime>
 <generatorID>DD473910-6637-4968-0B69-0693BDC7B72E</generatorID>
@@ -111,7 +111,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Environment" id="4ADD3DE8-1CA8-D485-580E-F220BADB899F">
 <createdBy>adrian_chlebosz</createdBy>
@@ -168,6 +168,7 @@
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:13:20 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="false"/>
 <item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>

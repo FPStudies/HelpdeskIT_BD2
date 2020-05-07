@@ -9,6 +9,16 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Email" id="0D788FD6-1B14-52B9-18E4-40C641EDBEF7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:54:00 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Password" id="A3D72A8B-4D8B-8CC2-4B00-FFCE18775442">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:54:16 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="ID" id="AEE221F0-C9CB-267B-D863-078FD0B4785E">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>

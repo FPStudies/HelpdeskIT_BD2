@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6C8233C-7AB8-6D21-AC46-CDA1275918FC" name="Active_Ticket">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6C8233C-7AB8-6D21-AC46-CDA1275918FC" name="Active_Tickets">
 <createdBy>Admin</createdBy>
 <createdTime>2020-04-17 19:04:58 UTC</createdTime>
 <generatorID>332FB444-2519-E107-1E01-4CC2CB7AFD71</generatorID>
@@ -70,6 +70,17 @@
 <createdTime>2020-04-17 19:04:58 UTC</createdTime>
 <generatorID>AB820FE7-B487-E6A6-5DE2-BE005596CDC0</generatorID>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Due_Date" id="6985867F-7E16-6870-B844-4B850E36817D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:14:02 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -187,7 +198,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5AE0B211-A203-6041-1364-79C4446F6A2F" name="Active_Ticket_PK">
+<ind_PK_UK id="5AE0B211-A203-6041-1364-79C4446F6A2F" name="Active_Tickets_PK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-04-17 19:04:58 UTC</createdTime>
 <generatorID>E5B39AB1-F3F8-A5A4-DE03-47A7D737DEF1</generatorID>
@@ -207,6 +218,34 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1425B5D3-7B65-0DC2-738B-A44EB285FDFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6405ADBD-255B-3960-43BA-215B9D2DAB8A" name="Active_Number__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:59:26 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1425B5D3-7B65-0DC2-738B-A44EB285FDFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="849C3E42-C402-DC50-A84B-0D7C1D539A4B" name="Active_Sub_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:20:40 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76B74027-0263-9BB2-72F9-BFD44A6A6045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8561DAD5-A95D-1285-0E36-C0FDEDB7D165" name="Active_Due_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:26:09 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6985867F-7E16-6870-B844-4B850E36817D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F7D4DF87-6E42-651D-AB9C-F4C7470C9D83" name="Active_Status__IDX">
@@ -263,22 +302,6 @@
 <colUsage columnID="2CB24575-1E6C-65FA-FEA8-2EE0D9C61709"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C120A211-4338-369D-CC46-DA3F29026E0A" name="Active_Team__IDX">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:20:40 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-</ind_PK_UK>
-<ind_PK_UK id="6405ADBD-255B-3960-43BA-215B9D2DAB8A" name="Active_Number__IDX">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 16:59:26 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1425B5D3-7B65-0DC2-738B-A44EB285FDFB"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="3FBE693F-41F2-368A-BC9E-47938BF14F97" name="Active_Client__IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:20:40 UTC</createdTime>
@@ -286,15 +309,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0BE93C24-CE6E-9662-CF5E-05125AD60169"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="849C3E42-C402-DC50-A84B-0D7C1D539A4B" name="Active_Sub_Date__IDX">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:20:40 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="76B74027-0263-9BB2-72F9-BFD44A6A6045"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="626BD25E-DC3E-EF18-5C32-DD77B1203FC4" name="Active_Software_FK">

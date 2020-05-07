@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="486E4616-2F86-3903-D620-EFA9D66F45F2" containerWithKeyObject="11091C2C-7BC6-67B4-2616-556D5BC81D75" localFKIndex="92D49811-9D9F-A7AC-AF4C-1607DA10345D" name="Attachments_Message_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<generatorID>252AF67F-A72C-7E8D-03DB-01BCE31DA381</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<referredTableLongName>Messages</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E766FDED-42BA-4AAC-5716-D5481D10E06B</referredTableID>
+<keyObject>C1B40EB3-89DA-EDC0-E648-357CFD99A1D1</keyObject>
+<referredKeyID>C1B40EB3-89DA-EDC0-E648-357CFD99A1D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

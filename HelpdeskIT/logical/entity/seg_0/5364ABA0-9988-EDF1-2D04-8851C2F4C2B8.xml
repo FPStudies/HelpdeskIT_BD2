@@ -44,7 +44,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Status" id="9A772049-10C6-C609-F53D-34F63D6E8421">
+<Attribute name="Ticket_Status" id="9A772049-10C6-C609-F53D-34F63D6E8421">
 <createdBy>adrian_chlebosz</createdBy>
 <createdTime>2020-04-15 21:03:30 UTC</createdTime>
 <generatorID>D9542FCD-11E7-F0D0-DE83-43A5D6E57A6D</generatorID>
@@ -58,9 +58,9 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID" id="EA3F75C2-5D82-EDA8-0C95-ACCAC4F84F4E">
+<Attribute name="Employee_ID" id="EA3F75C2-5D82-EDA8-0C95-ACCAC4F84F4E">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 13:41:29 UTC</createdTime>
 <generatorID>9DC301AB-87F6-49A2-9342-2C3CA99E8A45</generatorID>

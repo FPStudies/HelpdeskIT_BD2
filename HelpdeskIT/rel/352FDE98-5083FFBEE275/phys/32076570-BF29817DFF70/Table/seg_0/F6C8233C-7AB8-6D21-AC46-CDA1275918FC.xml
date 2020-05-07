@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Active_Ticket" directorySegmentName="seg_0" id="F6C8233C-7AB8-6D21-AC46-CDA1275918FC">
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Active_Tickets" directorySegmentName="seg_0" id="F6C8233C-7AB8-6D21-AC46-CDA1275918FC">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -37,6 +37,11 @@
 <ColumnProxy name="Issue_Type" id="678DD205-83A1-B35F-A634-85DB34B5AF7E">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Due_Date" id="6985867F-7E16-6870-B844-4B850E36817D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:14:02 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="Environment" id="7215F0CE-5FC0-0AFC-BA3A-C274CF0343C8">
@@ -101,17 +106,17 @@
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Due_Date__IDX" id="8561DAD5-A95D-1285-0E36-C0FDEDB7D165">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:26:09 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Employee__IDX" id="873DC126-AC9C-4D6A-0A2D-D9884E3177BA">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Issue_Type__IDX" id="AE11EB82-A65A-202B-7625-7C4D9A89474F">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 16:56:33 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Team__IDX" id="C120A211-4338-369D-CC46-DA3F29026E0A">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -165,7 +170,7 @@
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Active_Ticket_PK" id="5AE0B211-A203-6041-1364-79C4446F6A2F">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Active_Tickets_PK" id="5AE0B211-A203-6041-1364-79C4446F6A2F">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
