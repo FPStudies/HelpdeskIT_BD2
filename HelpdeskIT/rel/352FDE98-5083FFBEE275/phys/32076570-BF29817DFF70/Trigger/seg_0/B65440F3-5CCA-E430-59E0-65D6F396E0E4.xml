@@ -10,6 +10,7 @@ BEGIN
 SELECT Raw_Tickets_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
 SELECT Ticket_Number_SEQ.nextval INTO :NEW.Ticket_Number FROM DUAL;
 SELECT SYSDATE INTO :NEW.Submission_Date FROM DUAL;
+:NEW.Priority := "Normal";
 
 v_response_time := Find_Response_Time_f(:NEW.Clinet_ID, :NEW.Software);
 IF v_response_time IS NOT NULL THEN

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="235512E0-B9F0-26DF-4416-423BDF602D9A" name="Client_Authentication">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-10 12:06:39 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<ordsAlias>view_3</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    clients.email,
+    clients.password
+FROM
+    clients]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="email" id="56E3CFE7-6A1E-BB5C-0D8F-F18DC244FCA1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-10 12:08:49 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (40 CHAR)</dataType>
+<headerAlias>email</headerAlias>
+<reference>false</reference>
+<referencedColumn>6D640CA7-D923-B474-2537-43923FA23BCF</referencedColumn>
+<table>1B2023EE-9FFD-F1B8-8A71-DE85968F2D92</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="password" id="8723EECE-6A81-3123-C22E-788436515E04">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-10 12:08:49 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (40 CHAR)</dataType>
+<headerAlias>password</headerAlias>
+<reference>false</reference>
+<referencedColumn>8946E5E7-BCD7-2687-ECD3-263957103E1A</referencedColumn>
+<table>1B2023EE-9FFD-F1B8-8A71-DE85968F2D92</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1B2023EE-9FFD-F1B8-8A71-DE85968F2D92">
+<container>true</container>
+<tableName>Clients</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6D640CA7-D923-B474-2537-43923FA23BCF">
+<columnName>Email</columnName>
+<tableName>Clients</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8946E5E7-BCD7-2687-ECD3-263957103E1A">
+<columnName>Password</columnName>
+<tableName>Clients</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>
