@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Employees" directorySegmentName="seg_0" id="7DD26B21-E1B3-0E7C-F726-4D46324FEFA3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Email" id="0D788FD6-1B14-52B9-18E4-40C641EDBEF7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:54:00 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Password" id="A3D72A8B-4D8B-8CC2-4B00-FFCE18775442">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:54:16 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="AEE221F0-C9CB-267B-D863-078FD0B4785E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Team" id="B6E3DCCD-4ED4-4485-EB8D-ABDAE1352B91">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="First_Name" id="BBE48535-9BBC-6BAB-18E9-331EB1B34080">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Last_Name" id="D422D602-F8B8-C86F-C14F-3DE49C26653C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Position" id="FBBB6F56-D448-247F-860B-F2AC2114D421">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Employees_Position__IDX" id="54744457-3991-063D-40B8-9E62542E0574">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Employees_Team__IDX" id="5F19B307-0C00-564D-AA51-AE5CC8FBDD69">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Employees_Position_FK" id="47115707-229C-DDAF-DF4A-4ADA5396F7B9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Employees_Team_FK" id="D334AD76-DF97-BC45-896F-618A7DFD81FD">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Employees_PK" id="E0309314-3F14-2B6B-D4D2-BFD5DC182AE3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

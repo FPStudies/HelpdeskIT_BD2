@@ -1,0 +1,389 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34E87D11-ED52-56F5-D122-5A2B147CDDF2" name="Archived_Tickets">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>332FB444-2519-E107-1E01-4CC2CB7AFD71</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<ordsAlias>ticket</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7BEE3D57-AFC4-DD42-E864-F20AFBF5FD97">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>DDB2AE52-0893-758E-8714-D528490D26FD</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ticket_Number" id="A3B77E83-156E-CED8-1ADC-EBD8A1950C51">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>B8075540-C752-A977-D4E0-F4CA0D6C65D6</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="E49B84F3-0803-2A0C-C4C7-099D7140F915">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>D6D987E5-FBAF-16C2-2265-83B82E122211</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attempted_Solutions" id="BE440B0D-AC93-FFED-BCD7-42FE6582674A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>5E881127-81D3-B1F8-27F1-C32FD5220DEA</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Submission_Date" id="50C91685-01CC-98A8-28AC-43367174D0B5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>6627285F-718C-2A86-3396-EE90C7F16770</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modification_Date" id="1AACB487-B868-1736-ED91-FF25475127A1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>AB820FE7-B487-E6A6-5DE2-BE005596CDC0</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Due_Date" id="8C4B439F-DD20-6198-842E-AE6830FF3209">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:14:18 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ticket_Status" id="51B029D2-E972-EF1C-6DAD-BA07C8D973E2">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:25:00 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7AD4F1D-5E0F-2782-4969-7A0A198FB376" referredColumn="9A301A6C-DC2C-EE41-0188-65656CC9D0E0"/>
+</associations>
+</Column>
+<Column name="Priority" id="96F7BDC8-E965-6B81-567E-CA34F81D7E4F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>FE709520-6212-EFD3-3A97-9DD582A18448</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1F1D160-9B43-1522-2732-ED545E712E4B" referredColumn="CF7A1340-3771-75D1-83B3-8DD6E6F8D881"/>
+</associations>
+</Column>
+<Column name="Software" id="8D57628C-7774-8B19-0228-1EA179A47E21">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:46:18 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41332576-C700-BAF0-9C6F-32E4A17A41B6" referredColumn="17F9D27F-FAC9-BDE7-2A08-8DF2CDF070E6"/>
+</associations>
+</Column>
+<Column name="Issue_Type" id="65B420BA-4831-2907-7942-9EBB2CEC8AD5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>6884D801-87C5-34DD-9793-30ECE8CE7C75</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="082F05A9-B1D2-E55A-2692-CA58053291A2" referredColumn="97E2C956-B60F-0A27-4387-E03BF17C065F"/>
+</associations>
+</Column>
+<Column name="Environment" id="615B1B38-8B04-1812-8AA9-793A1BF71639">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>4ADD3DE8-1CA8-D485-580E-F220BADB899F</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE1EDABE-BFB8-39E4-60BB-8B66FB84F6C0" referredColumn="E2BE50BE-BE89-AABE-1345-44E3FE199A15"/>
+</associations>
+</Column>
+<Column name="Employee_ID" id="9264972E-18AA-D7C8-D1E7-345BFAE6D91C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>E0449FA9-4142-8097-AE5E-D92E451C859F</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10C9033D-125C-B44E-1C77-FC2A9C215F35" referredColumn="AEE221F0-C9CB-267B-D863-078FD0B4785E"/>
+</associations>
+</Column>
+<Column name="Client_ID" id="E03C283A-5B00-2F01-DDF4-F5D81E1B5376">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>6B7E1734-69B2-F8CD-56DC-78E51CE1B5C5</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19990615-D1EF-F6FB-ACBC-4E722F4AF00B" referredColumn="2D6476D7-91F1-6CF6-B44A-E471F1330B78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F717279-E28F-4750-0EEF-2D3CFA77B6FF" name="Archived_Tickets_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>E5B39AB1-F3F8-A5A4-DE03-47A7D737DEF1</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BEE3D57-AFC4-DD42-E864-F20AFBF5FD97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3517A816-F27B-1CEF-F17D-9176C0A8B6D7" name="Archived_Number__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 17:00:11 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B77E83-156E-CED8-1ADC-EBD8A1950C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06618B89-0CDA-B8F3-6A2B-092FCAABB744" name="Archived_Submission_Date_IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50C91685-01CC-98A8-28AC-43367174D0B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF8F1732-F563-3883-07D3-1B11EE33B8F4" name="Archived_Change_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:38:18 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AACB487-B868-1736-ED91-FF25475127A1"/>
+<colUsage columnID="51B029D2-E972-EF1C-6DAD-BA07C8D973E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30885D33-F48B-AE59-A1CA-A9EAB50286EE" name="Archived_Status__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:38:18 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51B029D2-E972-EF1C-6DAD-BA07C8D973E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05C86592-5EB1-2BF6-28E0-06736F235DF3" name="Archived_Priority_IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96F7BDC8-E965-6B81-567E-CA34F81D7E4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B91714F-B437-D388-9F4D-87E685DB548F" name="Archived_Software_IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D57628C-7774-8B19-0228-1EA179A47E21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A0E2C74-2C04-40AB-7750-B0D402E05A36" name="Archived_Issue_Type_IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65B420BA-4831-2907-7942-9EBB2CEC8AD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A765894-8AE3-35CB-FACC-F71287D8AB7B" name="Archived_Environment_IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="615B1B38-8B04-1812-8AA9-793A1BF71639"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="927D12C2-4F8A-39B4-6DE8-8DED5D5EEC13" name="Archived_Employee_ID_IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9264972E-18AA-D7C8-D1E7-345BFAE6D91C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26AA484A-771A-447D-8898-F9E399C831C1" name="Archived_Client__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:39:14 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E03C283A-5B00-2F01-DDF4-F5D81E1B5376"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="920B757B-718B-6756-4914-06B6F98FF867" name="Archived_Issue_Type_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>13BD4838-2E55-8D3C-B44E-D4CE7669831B</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65B420BA-4831-2907-7942-9EBB2CEC8AD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72F6E913-63D1-7C22-A9B6-654765A4FF69" name="Archived_Environment_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>35DA1B72-BC88-5B43-03C0-8F11C44B77EC</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="615B1B38-8B04-1812-8AA9-793A1BF71639"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3D7DB39-D888-0FA2-ED7D-75028776AC88" name="Archived_Priority_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>A1B9D4FF-0A16-EB5C-A579-41CB8CFE24FC</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96F7BDC8-E965-6B81-567E-CA34F81D7E4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84B73F40-92D8-B798-1077-D4315C5ED2B1" name="Archived_Clients_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>3DFE4491-CEE3-A246-EE1F-B847E393C79D</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E03C283A-5B00-2F01-DDF4-F5D81E1B5376"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24C7015A-0A07-D1FD-25D4-181F0A0A0445" name="Archived_Software_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>DD473910-6637-4968-0B69-0693BDC7B72E</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D57628C-7774-8B19-0228-1EA179A47E21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E603068-E168-AC29-25CE-6FFC04877486" name="Archived_Employees_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:21:47 UTC</createdTime>
+<generatorID>4E3343D7-897D-2CCB-AC58-FAA70D193580</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9264972E-18AA-D7C8-D1E7-345BFAE6D91C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D5B13DE-0DF0-052B-CFF0-B21E424DA3BD" name="Archived_Ticket_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:25:00 UTC</createdTime>
+<generatorID>056350E4-7217-1E35-1E7D-501EF60EC321</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51B029D2-E972-EF1C-6DAD-BA07C8D973E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Archived_Resonable_Date" directorySegmentName="seg_0" id="CED10753-8357-AB3E-1509-D22DCF8E4963">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 17:18:27 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<rule><![CDATA[Submission_Date >= TO_DATE('2020-01-01', 'yyyy-mm-dd') AND Modification_Date >= TO_DATE('2020-01-01', 'yyyy-mm-dd') )]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

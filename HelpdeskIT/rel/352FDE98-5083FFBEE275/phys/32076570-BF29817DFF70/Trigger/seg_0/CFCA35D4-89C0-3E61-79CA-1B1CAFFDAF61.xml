@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Archived_Tickets_Insert_TRG" directorySegmentName="seg_0" id="CFCA35D4-89C0-3E61-79CA-1B1CAFFDAF61">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 22:04:25 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+SELECT Archived_Tickets_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>34E87D11-ED52-56F5-D122-5A2B147CDDF2</table>
+</TriggerOraclev10g>

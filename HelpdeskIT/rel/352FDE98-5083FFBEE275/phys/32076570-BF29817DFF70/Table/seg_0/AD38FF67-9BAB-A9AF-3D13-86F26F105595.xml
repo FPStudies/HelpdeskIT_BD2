@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Priority" directorySegmentName="seg_0" id="AD38FF67-9BAB-A9AF-3D13-86F26F105595">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Priority" id="CF7A1340-3771-75D1-83B3-8DD6E6F8D881">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Priority_PK" id="A7D881E0-9E0B-D662-7330-0633FFBD7155">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

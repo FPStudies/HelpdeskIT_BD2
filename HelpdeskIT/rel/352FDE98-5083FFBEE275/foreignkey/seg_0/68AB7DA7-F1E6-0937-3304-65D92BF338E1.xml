@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68AB7DA7-F1E6-0937-3304-65D92BF338E1" containerWithKeyObject="F6C8233C-7AB8-6D21-AC46-CDA1275918FC" localFKIndex="997D7413-18F1-4C9A-FEB0-3B1CC1CA540F" name="Active_Ticket_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:23:00 UTC</createdTime>
+<generatorID>056350E4-7217-1E35-1E7D-501EF60EC321</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<referredTableLongName>Active_Ticket_Status</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D73EE475-D36E-BEE4-CD5B-C3044DE391F0</referredTableID>
+<keyObject>D36A8BD5-FAED-C55A-BAD8-6BC628891AF0</keyObject>
+<referredKeyID>D36A8BD5-FAED-C55A-BAD8-6BC628891AF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Status</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

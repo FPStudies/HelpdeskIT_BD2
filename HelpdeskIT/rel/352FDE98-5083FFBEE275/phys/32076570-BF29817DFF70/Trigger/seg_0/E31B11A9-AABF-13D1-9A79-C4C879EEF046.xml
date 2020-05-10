@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Employees_Insert_TRG" directorySegmentName="seg_0" id="E31B11A9-AABF-13D1-9A79-C4C879EEF046">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 22:00:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+SELECT Employe_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>7DD26B21-E1B3-0E7C-F726-4D46324FEFA3</table>
+</TriggerOraclev10g>

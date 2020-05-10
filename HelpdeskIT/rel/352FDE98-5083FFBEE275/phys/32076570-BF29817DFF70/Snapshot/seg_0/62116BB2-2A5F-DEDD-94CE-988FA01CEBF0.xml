@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="All_Solved_Count_MV" directorySegmentName="seg_0" id="62116BB2-2A5F-DEDD-94CE-988FA01CEBF0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 23:00:14 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<defaultSegment>NO</defaultSegment>
+<nextDate>SYSDATE + 1/2</nextDate>
+<refresh>YES</refresh>
+<refreshType>FORCE</refreshType>
+<startDate>SYSDATE</startDate>
+<subquery><![CDATA[SELECT to_char(Modification_Date, 'YYYY') AS Year, to_char(Modification_Date, 'MM') AS Month, to_char(Modification_Date, 'DD') AS Day, COUNT(*) AS Count FROM ARCHIVED_TICKET WHERE UPPER(TICKET_STATUS) = "SOLVED" GROUP BY ROLLUP to_char(Modification_Date, 'YYYY'), to_char(Modification_Date, 'MM'), to_char(Modification_Date, 'DD')]]></subquery>
+<subqueryNeedsMigration>false</subqueryNeedsMigration>
+<with>ROWID</with>
+</SnapshotOraclev11g>

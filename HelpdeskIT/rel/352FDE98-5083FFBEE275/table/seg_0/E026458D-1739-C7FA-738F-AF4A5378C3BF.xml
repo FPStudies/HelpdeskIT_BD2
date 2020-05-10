@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E026458D-1739-C7FA-738F-AF4A5378C3BF" name="Contracts">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:22 UTC</createdTime>
+<generatorID>8D23D1A2-3EAD-2D67-B62B-35905674BC37</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<ordsAlias>contract</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BF33E37B-474C-B145-3451-86B7BC39C461">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:22 UTC</createdTime>
+<generatorID>E8A5DC1A-BFEC-211E-7B74-C7B8AD0AAEAA</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Date" id="EC604811-EABE-4BA1-57AB-0028FA15C28F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:22 UTC</createdTime>
+<generatorID>9C104AF0-E48F-F1AE-9C82-6FF304C38DCF</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SLA" id="072EA04F-E85D-1C62-5015-7D5D5FCF6414">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:22 UTC</createdTime>
+<generatorID>A50CCE23-A65A-0214-A95D-80A4CE257724</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17554782-CECC-19FA-B212-414D16B36BCF" referredColumn="842F50A1-309B-8E84-7C67-CD32012D04C6"/>
+</associations>
+</Column>
+<Column name="Client_ID" id="4BF34EC3-4890-38D2-F79A-EB764DD261F9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:05:10 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4706CA65-0983-E125-ECAF-2C8D84D088C9" referredColumn="2D6476D7-91F1-6CF6-B44A-E471F1330B78"/>
+</associations>
+</Column>
+<Column name="Software" id="84D8C632-C50C-2694-33BD-3E7BD719663E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:05:21 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="410C29DC-0CA6-B9F4-8F7B-BA5BC2DEE4A3" referredColumn="17F9D27F-FAC9-BDE7-2A08-8DF2CDF070E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62A0A276-ADDE-F84B-D036-A87DB5F39BE3" name="Contracts_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:22 UTC</createdTime>
+<generatorID>8CC9E50B-646A-C8A4-1D8F-D60869435639</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF33E37B-474C-B145-3451-86B7BC39C461"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="779A4FBC-1EE2-4F64-6757-9F53B07B83F2" name="Contracts_SLA__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:08:30 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="072EA04F-E85D-1C62-5015-7D5D5FCF6414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="448E2F2B-787B-C5D3-A0D7-DC2F6028B0C4" name="Contracts_Clinet_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:08:43 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF34EC3-4890-38D2-F79A-EB764DD261F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0135D511-2A61-A05C-6CE9-39949B1EDBA4" name="Contracts_Software__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:08:53 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84D8C632-C50C-2694-33BD-3E7BD719663E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C9A296F-5D17-0F2A-7205-BA912620EF16" name="Contracts_SLA_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:22 UTC</createdTime>
+<generatorID>4E8DD5CF-5474-B6F6-FC1D-5AD69A5B0AEC</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="072EA04F-E85D-1C62-5015-7D5D5FCF6414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D31095F2-4FC2-8B9F-66E4-B7DD8EA7DA5E" name="Contracts_Clients_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:05:10 UTC</createdTime>
+<generatorID>9A2F94CF-7C00-F29A-7818-B5140D485940</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF34EC3-4890-38D2-F79A-EB764DD261F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ACB53EE-BF7B-7240-A2BB-474466B6B34B" name="Contracts_Software_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:05:21 UTC</createdTime>
+<generatorID>DF78AD75-B306-8F3C-109D-BDD9667D0F8C</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84D8C632-C50C-2694-33BD-3E7BD719663E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

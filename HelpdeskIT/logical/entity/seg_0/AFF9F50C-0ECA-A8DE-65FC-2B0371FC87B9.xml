@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFF9F50C-0ECA-A8DE-65FC-2B0371FC87B9" name="Active">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 21:01:58 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>332FB444-2519-E107-1E01-4CC2CB7AFD71</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Attempted_Solutions" id="1EED401C-B29B-AA1B-BB00-68FA7BA8EC25">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:38:50 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Modification_Date" id="79CE7903-A2FD-FBE9-BD6B-43916E1680D2">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:39:41 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ticket_Status" id="A36DB36E-FE42-090B-8551-4CBC01121FAF">
+<createdBy>adrian_chlebosz</createdBy>
+<createdTime>2020-04-15 21:03:24 UTC</createdTime>
+<generatorID>A764798E-CCB7-415A-493C-E67F29DAD72E</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<referedAttribute>48E72975-AF6F-2BD1-49B1-91D518D0CBEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_ID" id="C8DCCAC0-19A8-4DF9-C7B6-31AC9E158699">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 13:41:02 UTC</createdTime>
+<generatorID>3F749BE5-F8BB-859A-4F56-91AF083F6553</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
+</engineerTo>
+<referedAttribute>33E3A889-D89E-EB69-7077-24964B761EC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

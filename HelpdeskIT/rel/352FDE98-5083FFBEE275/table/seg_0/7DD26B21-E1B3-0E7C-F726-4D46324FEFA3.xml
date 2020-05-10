@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DD26B21-E1B3-0E7C-F726-4D46324FEFA3" name="Employees">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>03985487-F91F-5D57-E3F9-6B9776F518CB</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AEE221F0-C9CB-267B-D863-078FD0B4785E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>33E3A889-D89E-EB69-7077-24964B761EC8</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="BBE48535-9BBC-6BAB-18E9-331EB1B34080">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>7C3B4543-7379-E4D2-5159-9E31D14884AF</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="D422D602-F8B8-C86F-C14F-3DE49C26653C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>A388312C-9D60-E3B8-78FE-3FD8E0D3144E</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="0D788FD6-1B14-52B9-18E4-40C641EDBEF7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:54:00 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="A3D72A8B-4D8B-8CC2-4B00-FFCE18775442">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:54:16 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Position" id="FBBB6F56-D448-247F-860B-F2AC2114D421">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>1C41BD52-C411-32A5-5799-758D254945D1</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CC7B1BB-BB57-AC8A-1724-37867E337738" referredColumn="85877F58-E123-B1EA-3428-35A22002FD75"/>
+</associations>
+</Column>
+<Column name="Team" id="B6E3DCCD-4ED4-4485-EB8D-ABDAE1352B91">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>C2E4192D-F1CC-3A59-72AF-029D4D42C782</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9224247C-95C3-A42E-9250-6EF9DBF137B9" referredColumn="2A74440F-5C6D-8B7E-385B-2054B9677268"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0309314-3F14-2B6B-D4D2-BFD5DC182AE3" name="Employees_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>1B673A14-F6BC-65E6-D045-8E32A6A2AFBB</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE221F0-C9CB-267B-D863-078FD0B4785E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54744457-3991-063D-40B8-9E62542E0574" name="Employees_Position__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:11:51 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBBB6F56-D448-247F-860B-F2AC2114D421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F19B307-0C00-564D-AA51-AE5CC8FBDD69" name="Employees_Team__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 14:11:51 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6E3DCCD-4ED4-4485-EB8D-ABDAE1352B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47115707-229C-DDAF-DF4A-4ADA5396F7B9" name="Employees_Position_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>B92BDD90-4636-6B8E-F8D0-F09A00222C21</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBBB6F56-D448-247F-860B-F2AC2114D421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D334AD76-DF97-BC45-896F-618A7DFD81FD" name="Employees_Team_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-04-17 19:04:58 UTC</createdTime>
+<generatorID>4F49609D-0124-5773-4AAD-D673E01A285C</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6E3DCCD-4ED4-4485-EB8D-ABDAE1352B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<columnGroups>
+<columnGroup class="oracle.dbtools.crest.model.design.relational.Table$ColumnGroup" name="Personal_Information" objectID="7DB65813-9CDF-3C3C-5769-204F1CB4958A">
+<columns>BBE48535-9BBC-6BAB-18E9-331EB1B34080 D422D602-F8B8-C86F-C14F-3DE49C26653C</columns>
+</columnGroup>
+</columnGroups>
+</Table>

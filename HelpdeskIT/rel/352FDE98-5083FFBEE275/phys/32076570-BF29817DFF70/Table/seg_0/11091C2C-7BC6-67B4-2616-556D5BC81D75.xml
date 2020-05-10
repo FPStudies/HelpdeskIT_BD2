@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Attachments" directorySegmentName="seg_0" id="11091C2C-7BC6-67B4-2616-556D5BC81D75">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Message_ID" id="3EA0C890-47B0-3D17-1C1C-3C57254E05A1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="8951961F-55F6-F8EA-2863-ADE89C0C061B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="File" id="A87E1D92-312A-C9ED-666C-1F09BF9C9576">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Attachments_Msg_ID__IDX" id="0D82391F-1A7D-BA7F-91E6-63A4C7C7FCD6">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 16:06:12 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Attachments_Message_FK" id="92D49811-9D9F-A7AC-AF4C-1607DA10345D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Attachments_PK" id="2CC268BF-3213-5929-658F-518B79EB4D6F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-07 15:56:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

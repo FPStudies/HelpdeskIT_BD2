@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="Employe_ID_SEQ" directorySegmentName="seg_0" id="1345E353-01F8-6D4C-763B-6C680B6EC9E5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-01 21:34:44 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</SequenceOraclev10g>
