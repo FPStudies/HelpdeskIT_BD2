@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="Insert_Raw_Ticket_p" directorySegmentName="seg_0" id="B346381F-061F-284A-BB17-BBC8496A166B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-10 12:09:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<source>CREATE OR REPLACE PROCEDURE Insert_Raw_Ticket_p 
+(p_Description IN VARCHAR2, p_Software IN VARCHAR2, p_Issue_Type IN VARCHAR2, p_Environment IN VARCHAR2, p_Client_ID IN NUMBER) AS 
+BEGIN
+ INSERT INTO Raw_Tickets(Description, Software, Issue_Type, Environment, Client_ID) VALUES (p_Description, p_Software, p_Issue_Type, p_Environment, p_Client_ID);
+END;</source>
+</StoredProcedureOraclev10g>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="Client_Authentication" directorySegmentName="seg_0" id="235512E0-B9F0-26DF-4416-423BDF602D9A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-10 12:06:39 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</TableViewProxyOraclev10g>
