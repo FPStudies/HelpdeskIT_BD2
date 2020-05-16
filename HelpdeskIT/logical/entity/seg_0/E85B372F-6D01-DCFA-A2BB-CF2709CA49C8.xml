@@ -93,20 +93,6 @@
 <dataTypeSize> CHAR</dataTypeSize>
 <ownDataTypeParameters> CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ticket_Number" id="D5A859F0-0E37-D15F-4D48-16D71A68F8DE">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 13:59:22 UTC</createdTime>
-<generatorID>156C2F34-1F76-D439-3F5F-8FCD88B6D949</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-</engineerTo>
-<referedAttribute>DDB2AE52-0893-758E-8714-D528490D26FD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Previous_Msg_ID" id="005C244E-BA2B-2198-C92B-77DE62507B14">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 14:02:45 UTC</createdTime>

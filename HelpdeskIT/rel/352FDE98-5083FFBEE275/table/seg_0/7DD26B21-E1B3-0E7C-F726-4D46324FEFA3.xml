@@ -101,6 +101,21 @@
 <colAssociation fkAssociation="9224247C-95C3-A42E-9250-6EF9DBF137B9" referredColumn="2A74440F-5C6D-8B7E-385B-2054B9677268"/>
 </associations>
 </Column>
+<Column name="Boss_ID" id="0B7ADE3C-D824-1A99-475C-1D9C863A2B34">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-16 01:58:12 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D371DF4B-5B86-02E8-9091-C044A5B922F7" referredColumn="AEE221F0-C9CB-267B-D863-078FD0B4785E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E0309314-3F14-2B6B-D4D2-BFD5DC182AE3" name="Employees_PK">
@@ -153,6 +168,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B6E3DCCD-4ED4-4485-EB8D-ABDAE1352B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FEBE613-D71B-76DB-95AD-7730BDB0E847" name="Boss_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-16 01:58:11 UTC</createdTime>
+<generatorID>1B673A14-F6BC-65E6-D045-8E32A6A2AFBB</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B7ADE3C-D824-1A99-475C-1D9C863A2B34"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

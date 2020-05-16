@@ -9,17 +9,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="9AC6EF2E-F206-A6BB-9548-F214687E79DA">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 16:18:19 UTC</createdTime>
-<generatorID>DDB2AE52-0893-758E-8714-D528490D26FD</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Ticket_Number" id="9554B39E-479E-E320-305B-737AA8A87D01">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
@@ -151,16 +140,6 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9AC6EF2E-F206-A6BB-9548-F214687E79DA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4FC2BCC6-7F3C-A21C-332C-F4407B4F2439" name="Raw_Ticket_Number_UN">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 16:18:19 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9554B39E-479E-E320-305B-737AA8A87D01"/>

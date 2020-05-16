@@ -5,7 +5,6 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <actions>INSERT</actions>
 <body><![CDATA[BEGIN
-SELECT Active_Tickets_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
 SELECT SYSDATE INTO :NEW.Modification_Dat FROM DUAL;
 END;]]></body>
 <triggerTime>BEFORE</triggerTime>

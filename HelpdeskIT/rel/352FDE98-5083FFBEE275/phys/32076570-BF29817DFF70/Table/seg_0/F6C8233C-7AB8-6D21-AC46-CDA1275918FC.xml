@@ -59,11 +59,6 @@
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="ID" id="D67B089D-0578-33C4-A7CE-673CF29987F1">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 16:56:33 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="Ticket_Status" id="DD912CB3-1F5E-E2F5-B9C9-DB8AC645BBF5">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
@@ -184,12 +179,4 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </TableCheckConstraint>
 </tableCheckConstraints>
-<uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Active_Ticket_Num__UN" id="7CFC94E0-AD15-E4A3-F4C5-D7D97526527D">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 16:56:33 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexSort>SORTED</indexSort>
-</UniqueKey>
-</uniqueKeys>
 </TableProxyOraclev11g>

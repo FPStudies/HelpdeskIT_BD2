@@ -7,7 +7,6 @@
 <body><![CDATA[DECLARE
 v_response_time NUMBER(4);
 BEGIN
-SELECT Raw_Tickets_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
 SELECT Ticket_Number_SEQ.nextval INTO :NEW.Ticket_Number FROM DUAL;
 SELECT SYSDATE INTO :NEW.Submission_Date FROM DUAL;
 :NEW.Priority := "Normal";
