@@ -79,6 +79,21 @@
 <dataTypeSize>40 CHAR</dataTypeSize>
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID1" id="6A54EE4D-2D0B-4A12-666A-350738CDD257">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 09:51:54 UTC</createdTime>
+<generatorID>7B501694-79EB-0719-8B40-BBA62DEE0A97</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4E801B93-005C-6D2A-F828-483618BA18C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9A2F94CF-7C00-F29A-7818-B5140D485940" name="Clients PK">

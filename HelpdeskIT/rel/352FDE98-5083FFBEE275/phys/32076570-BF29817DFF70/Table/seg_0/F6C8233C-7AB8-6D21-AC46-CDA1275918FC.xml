@@ -85,11 +85,13 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Priority__IDX" id="5DD6AE27-64BD-3C79-1B85-B32A5FE741ED">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Number__IDX" id="6405ADBD-255B-3960-43BA-215B9D2DAB8A">
 <createdBy>Admin</createdBy>
@@ -115,16 +117,19 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Software__IDX" id="E770EB41-ADB7-FF52-A3EA-517D252D5AE5">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Status__IDX" id="F7D4DF87-6E42-651D-AB9C-F4C7470C9D83">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 </indexProxies>
 <foreignKeys>

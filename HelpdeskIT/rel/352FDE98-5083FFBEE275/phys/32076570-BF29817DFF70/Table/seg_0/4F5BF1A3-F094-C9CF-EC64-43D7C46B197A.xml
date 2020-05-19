@@ -65,6 +65,7 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Raw_Due_Date_IDX" id="9C599838-6052-D2C2-2231-3A804244379A">
 <createdBy>Admin</createdBy>
@@ -80,6 +81,7 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Raw_Client_ID_IDX" id="D54B36F3-E65A-5C81-4CD8-F5CB0E8E941E">
 <createdBy>Admin</createdBy>
@@ -90,11 +92,13 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Raw_Environment_IDX" id="E5E19B83-3B85-1696-DA2A-5CA36AB1719F">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 </indexProxies>
 <foreignKeys>

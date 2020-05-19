@@ -34,7 +34,19 @@
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Boss_ID" id="E181F961-381C-D353-7D95-87A27A705EA8">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 09:50:56 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
 </columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Clients_Clients_FK" id="D8690923-1D2C-5920-19E2-162597BAF633">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 09:50:56 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Clients_PK" id="9E648C5C-1544-7666-375C-0CBA59DE76A4">
 <createdBy>Admin</createdBy>

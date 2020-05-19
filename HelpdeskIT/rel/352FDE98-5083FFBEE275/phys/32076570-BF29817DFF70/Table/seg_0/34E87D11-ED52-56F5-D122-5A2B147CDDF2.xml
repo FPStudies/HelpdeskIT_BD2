@@ -85,6 +85,7 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Archived_Submission_Date_IDX" id="06618B89-0CDA-B8F3-6A2B-092FCAABB744">
 <createdBy>Admin</createdBy>
@@ -100,11 +101,13 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Archived_Status__IDX" id="30885D33-F48B-AE59-A1CA-A9EAB50286EE">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Archived_Number__IDX" id="3517A816-F27B-1CEF-F17D-9176C0A8B6D7">
 <createdBy>Admin</createdBy>
@@ -115,11 +118,13 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Archived_Environment_IDX" id="5A765894-8AE3-35CB-FACC-F71287D8AB7B">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Archived_Employee_ID_IDX" id="927D12C2-4F8A-39B4-6DE8-8DED5D5EEC13">
 <createdBy>Admin</createdBy>

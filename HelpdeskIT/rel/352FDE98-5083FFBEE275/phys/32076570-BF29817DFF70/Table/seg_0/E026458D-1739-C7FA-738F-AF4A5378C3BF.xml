@@ -50,6 +50,7 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:08:30 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 </indexProxies>
 <foreignKeys>
