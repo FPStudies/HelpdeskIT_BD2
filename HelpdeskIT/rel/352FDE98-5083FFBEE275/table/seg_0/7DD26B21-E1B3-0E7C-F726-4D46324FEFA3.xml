@@ -76,7 +76,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <containsPII>true</containsPII>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -93,7 +93,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <containsPII>true</containsPII>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -113,6 +113,15 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AEE221F0-C9CB-267B-D863-078FD0B4785E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF6D35E9-A8C2-4196-C208-EAA5D2B42D71" name="Employees_Email__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:04:40 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D788FD6-1B14-52B9-18E4-40C641EDBEF7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="54744457-3991-063D-40B8-9E62542E0574" name="Employees_Position__IDX">

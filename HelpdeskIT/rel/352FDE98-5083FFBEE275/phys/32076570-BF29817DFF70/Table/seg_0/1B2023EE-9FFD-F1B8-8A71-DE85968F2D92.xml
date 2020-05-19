@@ -40,6 +40,18 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Clients_Email__IDX" id="148BAFC5-1EDB-40D3-060A-B90F07E4B986">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:05:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Clients_Last_Name__IDX" id="4002A9DF-87A0-DA5C-85A3-3DB8FAC1A182">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:08:06 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Clients_Clients_FK" id="D8690923-1D2C-5920-19E2-162597BAF633">
 <createdBy>Admin</createdBy>

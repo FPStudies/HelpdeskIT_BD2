@@ -98,6 +98,24 @@
 <colUsage columnID="2D6476D7-91F1-6CF6-B44A-E471F1330B78"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="148BAFC5-1EDB-40D3-060A-B90F07E4B986" name="Clients_Email__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:05:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D640CA7-D923-B474-2537-43923FA23BCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4002A9DF-87A0-DA5C-85A3-3DB8FAC1A182" name="Clients_Last_Name__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:08:06 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A696152E-87F6-45AC-5FF2-DA1005979384"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="D8690923-1D2C-5920-19E2-162597BAF633" name="Clients_Clients_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 09:50:56 UTC</createdTime>

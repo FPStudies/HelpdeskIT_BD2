@@ -58,6 +58,11 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <bitmapIndex>true</bitmapIndex>
 </IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Employees_Email__IDX" id="BF6D35E9-A8C2-4196-C208-EAA5D2B42D71">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:04:40 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
 </indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Employees_Position_FK" id="47115707-229C-DDAF-DF4A-4ADA5396F7B9">

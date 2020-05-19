@@ -52,6 +52,11 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <bitmapIndex>true</bitmapIndex>
 </IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Contracts_End_Date__IDX" id="7E80D329-4DEC-19AA-A2F3-B971B3731C2A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:09:59 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
 </indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contracts_SLA_FK" id="6C9A296F-5D17-0F2A-7205-BA912620EF16">

@@ -90,6 +90,15 @@
 <colUsage columnID="BF33E37B-474C-B145-3451-86B7BC39C461"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="7E80D329-4DEC-19AA-A2F3-B971B3731C2A" name="Contracts_End_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:09:59 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC604811-EABE-4BA1-57AB-0028FA15C28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="779A4FBC-1EE2-4F64-6757-9F53B07B83F2" name="Contracts_SLA__IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:08:30 UTC</createdTime>
