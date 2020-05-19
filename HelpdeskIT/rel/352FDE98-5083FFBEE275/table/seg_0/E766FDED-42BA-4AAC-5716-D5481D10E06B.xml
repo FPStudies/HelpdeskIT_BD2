@@ -140,6 +140,15 @@
 <colUsage columnID="13045B8C-09D8-AB6A-02A0-0F548A801FEB"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="49AF3238-BC1C-623B-F690-7F4D11ABD33E" name="Messages_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 11:25:41 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C57CF3A9-2F87-093D-36D0-A040DD9A5C95"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="3AADF2D4-E2E6-6784-F53D-B06560B844DF" name="Messages_Messages_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 15:56:42 UTC</createdTime>

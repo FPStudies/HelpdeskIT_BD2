@@ -227,6 +227,15 @@
 <colUsage columnID="50C91685-01CC-98A8-28AC-43367174D0B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="14880333-8884-B363-7265-F0693320A763" name="Archived_Mod_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 11:28:53 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AACB487-B868-1736-ED91-FF25475127A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="AF8F1732-F563-3883-07D3-1B11EE33B8F4" name="Archived_Change_Date__IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 14:38:18 UTC</createdTime>

@@ -92,6 +92,11 @@
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Archived_Mod_Date__IDX" id="14880333-8884-B363-7265-F0693320A763">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 11:28:53 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Archived_Client__IDX" id="26AA484A-771A-447D-8898-F9E399C831C1">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
