@@ -24,6 +24,11 @@
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Ticket_number" id="55B42C74-8F22-0CAF-4728-43BE4D8BE2AE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:38:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="Environment" id="615B1B38-8B04-1812-8AA9-793A1BF71639">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
@@ -55,11 +60,6 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="Priority" id="96F7BDC8-E965-6B81-567E-CA34F81D7E4F">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 16:56:33 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="Ticket_Number" id="A3B77E83-156E-CED8-1ADC-EBD8A1950C51">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -161,6 +161,11 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Environment_FK" id="72F6E913-63D1-7C22-A9B6-654765A4FF69">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Tickets_Ticket_Identyfication_FK" id="796FB525-647B-AEAF-018E-2D834CF0853F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:38:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Clients_FK" id="84B73F40-92D8-B798-1077-D4315C5ED2B1">

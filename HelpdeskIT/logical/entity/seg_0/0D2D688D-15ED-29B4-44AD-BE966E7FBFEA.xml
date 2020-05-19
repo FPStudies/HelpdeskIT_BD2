@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6E48D48-450D-EA50-082E-1B0CB991DC17" name="Raw">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D2D688D-15ED-29B4-44AD-BE966E7FBFEA" name="Ticket_Identification">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-07 13:34:17 UTC</createdTime>
+<createdTime>2020-05-19 12:17:12 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
@@ -11,20 +11,17 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>332FB444-2519-E107-1E01-4CC2CB7AFD71</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Ticket_Number" id="FB1CE9D4-5027-F665-FD52-5C532612D4CB">
+<Attribute name="Ticket_Number" id="B9D30D13-7424-D6D3-1A9A-11A0600CB60C">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-19 12:35:18 UTC</createdTime>
-<generatorID>701AFA7C-ED89-C09E-06F5-30D0AA13C34B</generatorID>
+<createdTime>2020-05-19 12:18:12 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
-<referedAttribute>B9D30D13-7424-D6D3-1A9A-11A0600CB60C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -32,16 +29,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1839FF97-E8E0-630B-1538-A8B883D226E6" name="Raw PK">
+<identifier id="78EBA76D-83B9-D1CD-544D-670A7A65A3B0" name="Ticket_Identification PK">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-16 01:49:30 UTC</createdTime>
+<createdTime>2020-05-19 12:19:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FB1CE9D4-5027-F665-FD52-5C532612D4CB</attributeRef>
+<attributeRef>B9D30D13-7424-D6D3-1A9A-11A0600CB60C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

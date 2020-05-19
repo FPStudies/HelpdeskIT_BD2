@@ -9,16 +9,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Ticket_Number" id="9554B39E-479E-E320-305B-737AA8A87D01">
+<Column name="Ticket_number" id="FA443D52-8FE9-D05A-310C-ED854301E664">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-07 16:18:19 UTC</createdTime>
-<generatorID>B8075540-C752-A977-D4E0-F4CA0D6C65D6</generatorID>
+<createdTime>2020-05-19 12:36:12 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFC25A9B-51E6-12A3-AAA1-383626255B6E" referredColumn="0B15D3BB-0238-171F-993B-FF9E34B0F96F"/>
+</associations>
 </Column>
 <Column name="Description" id="8854684C-FE93-9F37-C56A-15E04B9636B6">
 <createdBy>Admin</createdBy>
@@ -142,7 +145,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9554B39E-479E-E320-305B-737AA8A87D01"/>
+<colUsage columnID="FA443D52-8FE9-D05A-310C-ED854301E664"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="1D151862-4FBD-32FC-E9C3-212EA6A31E61" name="Raw_Number_IDX">
@@ -152,7 +155,7 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9554B39E-479E-E320-305B-737AA8A87D01"/>
+<colUsage columnID="FA443D52-8FE9-D05A-310C-ED854301E664"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="BAF0A546-5E2C-4811-D761-98B3A59CBE08" name="Raw_Sub_Date_IDX">
@@ -271,6 +274,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5A4F1197-F153-495C-19B9-E4739BDE19F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4110DBB1-65D9-86F3-B585-E6044E25B64D" name="Raw_Tickets_Ticket_Identyfication_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:36:12 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA443D52-8FE9-D05A-310C-ED854301E664"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
