@@ -64,16 +64,22 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 15:56:22 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contracts_Software_FK" id="7ACB53EE-BF7B-7240-A2BB-474466B6B34B">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:05:21 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contracts_Clients_FK" id="D31095F2-4FC2-8B9F-66E4-B7DD8EA7DA5E">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:05:10 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>

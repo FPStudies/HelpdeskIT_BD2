@@ -147,41 +147,57 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Ticket_Status_FK" id="2D5B13DE-0DF0-052B-CFF0-B21E424DA3BD">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Employees_FK" id="2E603068-E168-AC29-25CE-6FFC04877486">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Environment_FK" id="72F6E913-63D1-7C22-A9B6-654765A4FF69">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_TNumber_FK" id="796FB525-647B-AEAF-018E-2D834CF0853F">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 12:38:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Clients_FK" id="84B73F40-92D8-B798-1077-D4315C5ED2B1">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Issue_Type_FK" id="920B757B-718B-6756-4914-06B6F98FF867">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Archived_Priority_FK" id="B3D7DB39-D888-0FA2-ED7D-75028776AC88">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>

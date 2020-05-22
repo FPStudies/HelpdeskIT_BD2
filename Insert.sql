@@ -1,4 +1,9 @@
-ALTER SESSION SET CONSTRAINTS = DEFERRED;
+/*ALTER SESSION SET CONSTRAINTS = DEFERRED;*/
+
+INSERT INTO CLIENTS(FIRST_NAME, LAST_NAME, EMAIL, PASSWORD) VALUES ('Tomasz', 'Nowak', 'TNowak@wp.pl', '12345678');
+INSERT INTO CLIENTS(FIRST_NAME, LAST_NAME, EMAIL, PASSWORD) VALUES ('Artur', 'Janiak', 'AJaniak@wp.pl', 'asdfghjk');
+
+INSERT INTO EMPLOYEES(FIRST_NAME, LAST_NAME, EMAIL, PASSWORD, POSITION, TEAM) VALUES ('Robert', 'Kowalski', 'RKowalski@wp.pl', 'qwertyui', 'Team Leader', 'Networking');
 
 execute insert_active_status_p('Received');
 execute insert_active_status_p('Delegated');
@@ -24,11 +29,12 @@ INSERT INTO PRIORITY VALUES ('Critical');
 
 INSERT INTO SOFTWARE VALUES ('Helpdesk');
 
-INSERT INTO CLIENTS(FIRST_NAME, LAST_NAME, EMAIL, PASSWORD) VALUES ('Tomasz', 'Nowak', 'TNowak@wp.pl', '12345678');
-INSERT INTO CLIENTS(FIRST_NAME, LAST_NAME, EMAIL, PASSWORD) VALUES ('Artur', 'Janiak', 'AJaniak@wp.pl', 'asdfghjk');
-
-INSERT INTO EMPLOYEES(FIRST_NAME, LAST_NAME, EMAIL, PASSWORD, POSITION, TEAM) VALUES ('Robert', 'Kowalski', 'RKowalski@wp.pl', 'qwertyui', 'Team Leader', 'Networking');
-
 execute insert_raw_ticket_p('Trouble', 'Normal', 'Helpdesk', 'Crashes', 'Windows 10', 1);
+execute insert_raw_ticket_p('Trouble', 'Urgent', 'Helpdesk', 'Crashes', 'Windows 7', 1);
 
 execute receive_ticket_p(2, 1);
+execute receive_ticket_p(3, 1);
+
+execute close_ticket_p(2, 'Solved');
+
+INSERT INTO MESSAGES(ticket_number, sender, receiver, "Date", topic, content) VALUES(3, 'abc@wp.pl', 'xyz@wp.pl', '20/05/21', 'More details', 'blablabla');

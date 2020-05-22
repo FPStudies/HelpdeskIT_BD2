@@ -5,6 +5,7 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <actions>INSERT</actions>
 <body><![CDATA[BEGIN
+SELECT Message_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
 UPDATE Active_Tickets
 SET Modification_Date = SYSDATE
 WHERE Active_Tickets.Ticket_Number = :NEW.Ticket_Number;

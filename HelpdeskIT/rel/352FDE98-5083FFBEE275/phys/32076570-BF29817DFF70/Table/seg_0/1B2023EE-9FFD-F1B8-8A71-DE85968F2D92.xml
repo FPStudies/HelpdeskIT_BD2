@@ -57,6 +57,8 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 09:50:56 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
