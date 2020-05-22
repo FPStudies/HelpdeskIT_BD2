@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="Receive_Ticket_p" directorySegmentName="seg_0" id="CE7F19A5-BDE6-CCD4-7BE7-4B0798F02823">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-22 01:24:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<source>CREATE OR REPLACE PROCEDURE Receive_Ticket_p (p_Ticket_Number IN NUMBER, p_Employee_ID IN NUMBER) AS 
+v_Raw_Ticket Raw_Tickets%ROWTYPE;
+BEGIN
+ SELECT * INTO v_Raw_Ticket FROM RAW_TICKETS WHERE TICKET_NUMBER = p_Ticket_Number;
+ 
+ INSERT INTO ACTIVE_TICKETS VALUES (v_Raw_Ticket.Ticket_Number, v_Raw_Ticket.Description, &apos;&apos;, v_Raw_Ticket.Submission_Date, 
+ SYSDATE, v_Raw_Ticket.Due_Date, &apos;Received&apos;, v_Raw_Ticket.Priority, v_Raw_Ticket.Software, v_Raw_Ticket.Issue_Type,
+ v_Raw_Ticket.Environment, p_Employee_ID, v_Raw_Ticket.Client_ID);
+ 
+ DELETE FROM RAW_TICKETS WHERE TICKET_NUMBER = p_Ticket_Number;
+END;</source>
+</StoredProcedureOraclev10g>

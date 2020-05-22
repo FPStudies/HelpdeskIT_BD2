@@ -28,6 +28,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Ticket_Number" id="11F0727C-C265-DD12-476A-A725F4BF94E5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 13:00:03 UTC</createdTime>
+<generatorID>FAF30358-C3EF-22C1-1DEB-1C27AA402206</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+</engineerTo>
+<referedAttribute>B9D30D13-7424-D6D3-1A9A-11A0600CB60C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Attempted_Solutions" id="C8AA12D6-6CD7-B98B-378C-D30EAE1DB849">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 13:39:08 UTC</createdTime>
@@ -77,20 +91,6 @@
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
 </engineerTo>
 <referedAttribute>33E3A889-D89E-EB69-7077-24964B761EC8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Ticket_Number" id="AF04C00C-5F33-45E0-4447-572A6F19D7EE">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-19 12:35:18 UTC</createdTime>
-<generatorID>010E62C5-C579-A0FB-7BAB-F47BB87A7031</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-</engineerTo>
-<referedAttribute>B9D30D13-7424-D6D3-1A9A-11A0600CB60C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

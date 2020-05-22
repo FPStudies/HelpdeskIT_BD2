@@ -14,7 +14,7 @@
 <createdTime>2020-05-07 15:56:42 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="Ticket_number" id="348A3BE3-85AD-69BE-B134-338423CB7F67">
+<ColumnProxy name="Ticket_Number" id="348A3BE3-85AD-69BE-B134-338423CB7F67">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 12:40:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -73,7 +73,7 @@
 <createdTime>2020-05-07 15:56:42 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Messages_Ticket_Identyfication_FK" id="9CE7C805-BF05-D5D1-CC28-EA31AC109B5A">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Messages_TNumber_FK" id="9CE7C805-BF05-D5D1-CC28-EA31AC109B5A">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 12:40:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ticket_number" id="348A3BE3-85AD-69BE-B134-338423CB7F67">
+<Column name="Ticket_Number" id="348A3BE3-85AD-69BE-B134-338423CB7F67">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 12:40:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -163,7 +163,7 @@
 <colUsage columnID="C9BC0E2B-C279-9D62-B08D-862FFD0D1167"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9CE7C805-BF05-D5D1-CC28-EA31AC109B5A" name="Messages_Ticket_Identyfication_FK">
+<ind_PK_UK id="9CE7C805-BF05-D5D1-CC28-EA31AC109B5A" name="Messages_TNumber_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 12:40:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

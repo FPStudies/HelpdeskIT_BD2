@@ -108,7 +108,7 @@
 <colUsage columnID="072EA04F-E85D-1C62-5015-7D5D5FCF6414"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="448E2F2B-787B-C5D3-A0D7-DC2F6028B0C4" name="Contracts_Clinet_ID__IDX">
+<ind_PK_UK id="448E2F2B-787B-C5D3-A0D7-DC2F6028B0C4" name="Contracts_Client_ID__IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:08:43 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

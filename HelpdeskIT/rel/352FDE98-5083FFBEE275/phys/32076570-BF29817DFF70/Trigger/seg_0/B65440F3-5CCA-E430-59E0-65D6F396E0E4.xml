@@ -5,13 +5,17 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <actions>INSERT</actions>
 <body><![CDATA[DECLARE
+v_Ticket_number NUMBER;
 v_response_time NUMBER(4);
 BEGIN
-SELECT Ticket_Number_SEQ.nextval INTO :NEW.Ticket_Number FROM DUAL;
-SELECT SYSDATE INTO :NEW.Submission_Date FROM DUAL;
-:NEW.Priority := "Normal";
+SELECT Ticket_Number_SEQ.nextval INTO v_Ticket_number FROM DUAL;
 
-v_response_time := Find_Response_Time_f(:NEW.Clinet_ID, :NEW.Software);
+INSERT INTO Ticket_Identyfication VALUES(v_Ticket_number);
+
+:NEW.Ticket_Number := v_Ticket_number;
+SELECT SYSDATE INTO :NEW.Submission_Date FROM DUAL;
+
+v_response_time := Find_Response_Time_f(:NEW.Client_ID, :NEW.Software);
 IF v_response_time IS NOT NULL THEN
 :NEW.Due_Date := :NEW.Submission_Date + v_response_time/24;
 END IF;

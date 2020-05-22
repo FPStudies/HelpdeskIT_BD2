@@ -40,8 +40,9 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:08:53 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Contracts_Clinet_ID__IDX" id="448E2F2B-787B-C5D3-A0D7-DC2F6028B0C4">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Contracts_Client_ID__IDX" id="448E2F2B-787B-C5D3-A0D7-DC2F6028B0C4">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:08:43 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

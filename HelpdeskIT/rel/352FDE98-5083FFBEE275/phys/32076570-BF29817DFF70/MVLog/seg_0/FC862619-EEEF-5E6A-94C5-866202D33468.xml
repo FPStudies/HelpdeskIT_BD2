@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<MaterializedViewLogOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.MaterializedViewLogOraclev9i" name="Active_Tickets" directorySegmentName="seg_0" id="AACDDDF8-D2AA-8084-CE88-FE71E0D1A740">
+<MaterializedViewLogOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.MaterializedViewLogOraclev9i" name="Active_Tickets" directorySegmentName="seg_0" id="FC862619-EEEF-5E6A-94C5-866202D33468">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-01 22:47:07 UTC</createdTime>
+<createdTime>2020-05-21 20:53:53 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <rowIDLogged>NO</rowIDLogged>
-<pkLogged>NO</pkLogged>
+<pkLogged>YES</pkLogged>
 <newValues>NO</newValues>
 <cache>No cache</cache>
 <parallel>NO</parallel>
@@ -12,7 +12,7 @@
 <logging>NO</logging>
 <bufferPool>DEFAULT</bufferPool>
 <maxExtentUnlimited>false</maxExtentUnlimited>
-<columns>0BE93C24-CE6E-9662-CF5E-05125AD60169,2CB24575-1E6C-65FA-FEA8-2EE0D9C61709,7215F0CE-5FC0-0AFC-BA3A-C274CF0343C8,678DD205-83A1-B35F-A634-85DB34B5AF7E,5B722BC5-DBAE-772E-0077-D558B6FF0C3C,6635C75F-CFCB-E8AB-15D4-F2770F7B15DB,EB542747-5669-3284-F12D-DFBEBE7A393E,76B74027-0263-9BB2-72F9-BFD44A6A6045,DD912CB3-1F5E-E2F5-B9C9-DB8AC645BBF5,6985867F-7E16-6870-B844-4B850E36817D</columns>
+<columns>0BE93C24-CE6E-9662-CF5E-05125AD60169,6985867F-7E16-6870-B844-4B850E36817D,2CB24575-1E6C-65FA-FEA8-2EE0D9C61709,7215F0CE-5FC0-0AFC-BA3A-C274CF0343C8,678DD205-83A1-B35F-A634-85DB34B5AF7E,5B722BC5-DBAE-772E-0077-D558B6FF0C3C,6635C75F-CFCB-E8AB-15D4-F2770F7B15DB,EB542747-5669-3284-F12D-DFBEBE7A393E,76B74027-0263-9BB2-72F9-BFD44A6A6045,DD912CB3-1F5E-E2F5-B9C9-DB8AC645BBF5</columns>
 <columnNames>CLIENT_ID,DUE_DATE,EMPLOYEE_ID,ENVIRONMENT,ISSUE_TYPE,MODIFICATION_DATE,PRIORITY,SOFTWARE,SUBMISSION_DATE,TICKET_STATUS</columnNames>
 <tableProxy>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</tableProxy>
 <tableName>Active_Tickets</tableName>

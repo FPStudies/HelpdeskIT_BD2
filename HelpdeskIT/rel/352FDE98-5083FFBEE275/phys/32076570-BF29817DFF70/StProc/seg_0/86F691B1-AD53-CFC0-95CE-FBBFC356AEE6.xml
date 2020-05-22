@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="Close_Ticket_p" directorySegmentName="seg_0" id="86F691B1-AD53-CFC0-95CE-FBBFC356AEE6">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-22 01:25:31 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<source>CREATE OR REPLACE PROCEDURE Close_Ticket_p (p_Ticket_Number IN NUMBER, p_Closing_Status IN VARCHAR2) AS 
+v_Match_CK_Number NUMBER;
+BEGIN
+    SELECT COUNT(*) INTO v_Match_CK_Number FROM ((SELECT STATUS FROM ARCHIVED_TICKET_STATUS) MINUS (SELECT STATUS FROM ACTIVE_TICKET_STATUS)) WHERE STATUS = p_Closing_Status;
+    
+    IF v_Match_CK_Number &gt; 0 THEN
+        UPDATE ACTIVE_TICKETS SET TICKET_STATUS = p_Closing_Status WHERE TICKET_NUMBER = p_Ticket_Number;
+        DELETE FROM ACTIVE_TICKETS WHERE TICKET_NUMBER = p_Ticket_Number;
+    END IF;
+END;</source>
+</StoredProcedureOraclev10g>

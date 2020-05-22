@@ -9,7 +9,7 @@
 <refreshType>FORCE</refreshType>
 <segmentType>MASTER</segmentType>
 <startDate>sysdate</startDate>
-<subquery><![CDATA[SELECT * FROM ARCHIVED_TICKET WHERE UPPER(TICKET_STATUS) = "DROPPED"]]></subquery>
+<subquery><![CDATA[SELECT * FROM ARCHIVED_TICKETS WHERE UPPER(TICKET_STATUS) = 'DROPPED']]></subquery>
 <subqueryNeedsMigration>false</subqueryNeedsMigration>
 <with>ROWID</with>
 </SnapshotOraclev11g>

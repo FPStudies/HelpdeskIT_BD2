@@ -4,8 +4,11 @@
 <createdTime>2020-05-19 11:29:42 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <defaultSegment>NO</defaultSegment>
+<nextDate>SYSDATE + 1/2</nextDate>
+<refresh>YES</refresh>
 <refreshType>FORCE</refreshType>
-<subqueryChanged>false</subqueryChanged>
+<startDate>SYSDATE</startDate>
+<subquery><![CDATA[SELECT Due_Date - Modification_Date AS Closing_Time_Difference FROM ARCHIVED_TICKETS WHERE UPPER(TICKET_STATUS) IN ('DROPPED', 'SOLVED')]]></subquery>
 <subqueryNeedsMigration>false</subqueryNeedsMigration>
-<with></with>
+<with>ROWID</with>
 </SnapshotOraclev11g>

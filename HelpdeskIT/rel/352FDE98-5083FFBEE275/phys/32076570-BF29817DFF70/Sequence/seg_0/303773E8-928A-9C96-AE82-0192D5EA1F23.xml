@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="Archived_Ticket_ID_SEQ" directorySegmentName="seg_0" id="303773E8-928A-9C96-AE82-0192D5EA1F23">
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="Archived_Tickets_ID_SEQ" directorySegmentName="seg_0" id="303773E8-928A-9C96-AE82-0192D5EA1F23">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 21:42:39 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

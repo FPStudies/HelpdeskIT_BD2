@@ -49,7 +49,7 @@
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="Ticket_number" id="FA443D52-8FE9-D05A-310C-ED854301E664">
+<ColumnProxy name="Ticket_Number" id="FA443D52-8FE9-D05A-310C-ED854301E664">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 12:36:12 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -112,7 +112,7 @@
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Raw_Tickets_Ticket_Identyfication_FK" id="4110DBB1-65D9-86F3-B585-E6044E25B64D">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Raw_TNumber_FK" id="4110DBB1-65D9-86F3-B585-E6044E25B64D">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-19 12:36:12 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -142,7 +142,7 @@
 </PrimaryKey>
 </primaryKeys>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
-<TableCheckConstraint name="Active_Ticketsv1_CK" id="F3BC81A4-37B6-A5F6-6939-1CD0B4D25498">
+<TableCheckConstraint name="Raw_Resonable_Date_CK" id="F3BC81A4-37B6-A5F6-6939-1CD0B4D25498">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
