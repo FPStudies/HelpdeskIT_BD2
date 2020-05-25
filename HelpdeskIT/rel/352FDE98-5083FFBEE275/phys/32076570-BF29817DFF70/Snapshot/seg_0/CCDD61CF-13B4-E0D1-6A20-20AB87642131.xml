@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="Client_SLA_MV" directorySegmentName="seg_0" id="CCDD61CF-13B4-E0D1-6A20-20AB87642131">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-25 11:30:21 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<defaultSegment>NO</defaultSegment>
+<nextDate>SYSDATE + 1</nextDate>
+<refresh>YES</refresh>
+<refreshType>FORCE</refreshType>
+<startDate>SYSDATE</startDate>
+<subquery><![CDATA[SELECT CLIENT_ID, SOFTWARE, END_DATE, SLA, RESPONSE_TIME FROM CONTRACTS JOIN SLA ON CONTRACTS.SLA = SLA.NAME]]></subquery>
+<subqueryNeedsMigration>false</subqueryNeedsMigration>
+<with>ROWID</with>
+</SnapshotOraclev11g>
