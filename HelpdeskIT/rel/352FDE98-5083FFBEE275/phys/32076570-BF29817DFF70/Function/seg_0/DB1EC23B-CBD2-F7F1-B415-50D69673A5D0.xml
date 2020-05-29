@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="Find_Response_Time_f" directorySegmentName="seg_0" id="DB1EC23B-CBD2-F7F1-B415-50D69673A5D0">
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="Find_Response_Time_f_deprecated" directorySegmentName="seg_0" id="DB1EC23B-CBD2-F7F1-B415-50D69673A5D0">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 17:40:08 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
-<source>CREATE OR REPLACE FUNCTION Find_Response_Time_f(p_client_id IN NUMBER DEFAULT NULL, p_software_name IN STRING DEFAULT NULL) RETURN NUMBER IS
+<source>CREATE OR REPLACE FUNCTION Find_Response_Time_f_deprecated(p_client_id IN NUMBER DEFAULT NULL, p_software_name IN STRING DEFAULT NULL) RETURN NUMBER IS
 v_response_time NUMBER := NULL;
 BEGIN
     BEGIN
@@ -16,5 +16,5 @@ BEGIN
             v_response_time := NULL;
     END;
 RETURN v_response_time;
-END Find_Response_Time_f;</source>
+END Find_Response_Time_f_deprecated;</source>
 </FunctionOracle>

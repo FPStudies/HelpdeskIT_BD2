@@ -8,7 +8,7 @@
 <refresh>YES</refresh>
 <refreshType>FORCE</refreshType>
 <startDate>SYSDATE</startDate>
-<subquery><![CDATA[SELECT CLIENT_ID, SOFTWARE, END_DATE, SLA, RESPONSE_TIME FROM CONTRACTS JOIN SLA ON CONTRACTS.SLA = SLA.NAME]]></subquery>
+<subquery><![CDATA[SELECT CLIENT_ID, SOFTWARE, END_DATE, SLA, RESPONSE_TIME FROM CONTRACTS]]></subquery>
 <subqueryNeedsMigration>false</subqueryNeedsMigration>
 <with>ROWID</with>
 </SnapshotOraclev11g>

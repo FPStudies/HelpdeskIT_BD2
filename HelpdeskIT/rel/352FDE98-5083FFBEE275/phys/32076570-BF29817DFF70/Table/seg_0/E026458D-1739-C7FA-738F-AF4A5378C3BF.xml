@@ -14,6 +14,11 @@
 <createdTime>2020-05-07 15:56:22 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Response_Time" id="330CFEAB-A9A3-9041-4779-BAF5111DEE2C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-27 11:09:41 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="Client_ID" id="4BF34EC3-4890-38D2-F79A-EB764DD261F9">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:05:10 UTC</createdTime>

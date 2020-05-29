@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="Find_Response_Time_f" directorySegmentName="seg_0" id="F6BC43FB-8A7A-86A2-A838-9C4FE2EB4097">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-28 22:40:21 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<source>CREATE OR REPLACE FUNCTION Find_Response_Time_f(p_client_id IN NUMBER DEFAULT NULL, p_software_name IN STRING DEFAULT NULL) RETURN NUMBER IS
+v_response_time NUMBER := NULL;
+BEGIN
+    BEGIN
+        IF p_client_id IS NOT NULL AND p_software_name IS NOT NULL THEN
+            SELECT Response_Time INTO v_response_time FROM Contracts
+            WHERE Client_ID = p_client_id AND Software = p_software_name AND End_Date &gt; SYSDATE;
+        END IF;
+        EXCEPTION
+            WHEN NO_DATA_FOUND THEN
+            v_response_time := NULL;
+    END;
+RETURN v_response_time;
+END Find_Response_Time_f;</source>
+</FunctionOracle>

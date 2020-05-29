@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Raw_Tickets_Insert" directorySegmentName="seg_0" id="B65440F3-5CCA-E430-59E0-65D6F396E0E4">
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Raw_Tickets_Insert_TRG" directorySegmentName="seg_0" id="B65440F3-5CCA-E430-59E0-65D6F396E0E4">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 17:24:31 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

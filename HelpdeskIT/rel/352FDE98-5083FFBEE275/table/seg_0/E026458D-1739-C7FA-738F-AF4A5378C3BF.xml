@@ -76,6 +76,16 @@
 <colAssociation fkAssociation="410C29DC-0CA6-B9F4-8F7B-BA5BC2DEE4A3" referredColumn="17F9D27F-FAC9-BDE7-2A08-8DF2CDF070E6"/>
 </associations>
 </Column>
+<Column name="Response_Time" id="330CFEAB-A9A3-9041-4779-BAF5111DEE2C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-27 11:09:41 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="62A0A276-ADDE-F84B-D036-A87DB5F39BE3" name="Contracts_PK">
