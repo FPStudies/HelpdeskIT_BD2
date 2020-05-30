@@ -39,7 +39,7 @@
 <createdTime>2020-05-07 15:56:42 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="Date" id="C57CF3A9-2F87-093D-36D0-A040DD9A5C95">
+<ColumnProxy name="Receive_Date" id="C57CF3A9-2F87-093D-36D0-A040DD9A5C95">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:02:27 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>

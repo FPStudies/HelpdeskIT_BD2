@@ -6,7 +6,7 @@ BEGIN
     )
     LOOP
         EXECUTE IMMEDIATE 
-            'GRANT ALL ON '||a.owner||'.'||a.table_name||' to ' || 'achlebos';
+            'GRANT ALL ON '||a.owner||'.'||a.table_name||' to ' || 'mkordow1';
     END LOOP;
 
 
@@ -18,7 +18,7 @@ BEGIN
     )
     LOOP
         EXECUTE IMMEDIATE 
-            'GRANT ALL ON '||b.owner||'.'||b.view_name||' to ' || 'achlebos';
+            'GRANT ALL ON '||b.owner||'.'||b.view_name||' to ' || 'mkordow1';
     END LOOP;
 
 
@@ -30,7 +30,7 @@ BEGIN
     )
     LOOP
         EXECUTE IMMEDIATE 
-            'GRANT ALL ON '||c.sequence_owner||'.'||c.sequence_name||' to ' || 'achlebos';
+            'GRANT ALL ON '||c.sequence_owner||'.'||c.sequence_name||' to ' || 'mkordow1';
     END LOOP;
 
     FOR d IN (
@@ -40,7 +40,18 @@ BEGIN
     )
     LOOP
         EXECUTE IMMEDIATE 
-            'GRANT ALL ON '||d.owner||'.'||d.name||' to ' || 'achlebos';
+            'GRANT ALL ON '||d.owner||'.'||d.name||' to ' || 'mkordow1';
     END LOOP;
-    
+
+    FOR e IN (
+        SELECT owner, object_name 
+        FROM all_procedures
+        WHERE owner = 'FPRZYBYS' AND (object_name LIKE '%__P' OR object_name LIKE '%__F')
+    )
+    LOOP
+        EXECUTE IMMEDIATE 
+            'GRANT EXECUTE ON '||e.owner||'.'||e.object_name||' to ' || 'mkordow1';
+    END LOOP;
+
 END;
+

@@ -5,13 +5,17 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <source>CREATE OR REPLACE PROCEDURE Receive_Ticket_p (p_Ticket_Number IN NUMBER, p_Employee_ID IN NUMBER) AS 
 v_Raw_Ticket Raw_Tickets%ROWTYPE;
+v_Position VARCHAR2 (40 CHAR);
 BEGIN
- SELECT * INTO v_Raw_Ticket FROM RAW_TICKETS WHERE TICKET_NUMBER = p_Ticket_Number;
+ SELECT POSITION INTO v_Position FROM EMPLOYEES WHERE ID = p_Employee_ID;
+    IF UPPER(v_Position) = &apos;CONSULTANT&apos; OR UPPER(v_Position) = &apos;CONS_1&apos; THEN
+        SELECT * INTO v_Raw_Ticket FROM RAW_TICKETS WHERE TICKET_NUMBER = p_Ticket_Number;
  
- INSERT INTO ACTIVE_TICKETS VALUES (v_Raw_Ticket.Ticket_Number, v_Raw_Ticket.Description, &apos;&apos;, v_Raw_Ticket.Submission_Date, 
- SYSDATE, v_Raw_Ticket.Due_Date, &apos;Received&apos;, v_Raw_Ticket.Priority, v_Raw_Ticket.Software, v_Raw_Ticket.Issue_Type,
- v_Raw_Ticket.Environment, p_Employee_ID, v_Raw_Ticket.Client_ID);
+        INSERT INTO ACTIVE_TICKETS VALUES (v_Raw_Ticket.Ticket_Number, v_Raw_Ticket.Description, &apos;&apos;, v_Raw_Ticket.Submission_Date, 
+        SYSDATE, v_Raw_Ticket.Due_Date, &apos;Received&apos;, v_Raw_Ticket.Priority, v_Raw_Ticket.Software, v_Raw_Ticket.Issue_Type,
+        v_Raw_Ticket.Environment, p_Employee_ID, v_Raw_Ticket.Client_ID);
  
- DELETE FROM RAW_TICKETS WHERE TICKET_NUMBER = p_Ticket_Number;
+        DELETE FROM RAW_TICKETS WHERE TICKET_NUMBER = p_Ticket_Number;
+    END IF;
 END;</source>
 </StoredProcedureOraclev10g>
