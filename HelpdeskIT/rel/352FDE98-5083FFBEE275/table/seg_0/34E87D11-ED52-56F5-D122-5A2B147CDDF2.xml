@@ -20,16 +20,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ticket_Number" id="A3B77E83-156E-CED8-1ADC-EBD8A1950C51">
+<Column name="Ticket_Number" id="55B42C74-8F22-0CAF-4728-43BE4D8BE2AE">
 <createdBy>Admin</createdBy>
-<createdTime>2020-05-01 14:21:47 UTC</createdTime>
-<generatorID>B8075540-C752-A977-D4E0-F4CA0D6C65D6</generatorID>
+<createdTime>2020-05-19 12:38:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B15E986B-9FBE-86DE-84E5-70037B8BE50A" referredColumn="0B15D3BB-0238-171F-993B-FF9E34B0F96F"/>
+</associations>
 </Column>
 <Column name="Description" id="E49B84F3-0803-2A0C-C4C7-099D7140F915">
 <createdBy>Admin</createdBy>
@@ -215,7 +218,7 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A3B77E83-156E-CED8-1ADC-EBD8A1950C51"/>
+<colUsage columnID="55B42C74-8F22-0CAF-4728-43BE4D8BE2AE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="06618B89-0CDA-B8F3-6A2B-092FCAABB744" name="Archived_Submission_Date_IDX">
@@ -225,6 +228,15 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="50C91685-01CC-98A8-28AC-43367174D0B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14880333-8884-B363-7265-F0693320A763" name="Archived_Mod_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 11:28:53 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AACB487-B868-1736-ED91-FF25475127A1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="AF8F1732-F563-3883-07D3-1B11EE33B8F4" name="Archived_Change_Date__IDX">
@@ -377,13 +389,23 @@
 <colUsage columnID="51B029D2-E972-EF1C-6DAD-BA07C8D973E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="796FB525-647B-AEAF-018E-2D834CF0853F" name="Archived_TNumber_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:38:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B42C74-8F22-0CAF-4728-43BE4D8BE2AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="Archived_Resonable_Date" directorySegmentName="seg_0" id="CED10753-8357-AB3E-1509-D22DCF8E4963">
+<tableCheckConstraint name="Archived_Resonable_Date_CK" directorySegmentName="seg_0" id="CED10753-8357-AB3E-1509-D22DCF8E4963">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 17:18:27 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
-<rule><![CDATA[Submission_Date >= TO_DATE('2020-01-01', 'yyyy-mm-dd') AND Modification_Date >= TO_DATE('2020-01-01', 'yyyy-mm-dd') )]]></rule>
+<rule><![CDATA[Submission_Date >= TO_DATE('2020-01-01', 'yyyy-mm-dd') AND Modification_Date >= TO_DATE('2020-01-01', 'yyyy-mm-dd')]]></rule>
 </tableCheckConstraint>
 </tableCheckConstraints>
 </Table>

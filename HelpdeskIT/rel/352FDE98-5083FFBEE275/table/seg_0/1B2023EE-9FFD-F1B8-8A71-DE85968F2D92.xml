@@ -69,6 +69,21 @@
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Boss_ID" id="E181F961-381C-D353-7D95-87A27A705EA8">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 09:50:56 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D835273-B774-7EB4-2A71-EE17AC3794AE" referredColumn="2D6476D7-91F1-6CF6-B44A-E471F1330B78"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9E648C5C-1544-7666-375C-0CBA59DE76A4" name="Clients_PK">
@@ -81,6 +96,35 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2D6476D7-91F1-6CF6-B44A-E471F1330B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="148BAFC5-1EDB-40D3-060A-B90F07E4B986" name="Clients_Email__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:05:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D640CA7-D923-B474-2537-43923FA23BCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4002A9DF-87A0-DA5C-85A3-3DB8FAC1A182" name="Clients_Last_Name__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:08:06 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A696152E-87F6-45AC-5FF2-DA1005979384"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8690923-1D2C-5920-19E2-162597BAF633" name="Clients_Clients_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 09:50:56 UTC</createdTime>
+<generatorID>9A2F94CF-7C00-F29A-7818-B5140D485940</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E181F961-381C-D353-7D95-87A27A705EA8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -14,11 +14,6 @@
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="Ticket_Number" id="1425B5D3-7B65-0DC2-738B-A44EB285FDFB">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 16:56:33 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="Employee_ID" id="2CB24575-1E6C-65FA-FEA8-2EE0D9C61709">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
@@ -44,6 +39,11 @@
 <createdTime>2020-05-07 16:14:02 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Ticket_Number" id="6D63EB4B-B562-A894-DA18-DDD1DC75284D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:37:26 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="Environment" id="7215F0CE-5FC0-0AFC-BA3A-C274CF0343C8">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
@@ -55,11 +55,6 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="Attempted_Solutions" id="A072CAEC-C135-F721-ACA5-232BEC922BBF">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 16:56:33 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="ID" id="D67B089D-0578-33C4-A7CE-673CF29987F1">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -90,15 +85,22 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Priority__IDX" id="5DD6AE27-64BD-3C79-1B85-B32A5FE741ED">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Number__IDX" id="6405ADBD-255B-3960-43BA-215B9D2DAB8A">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:59:26 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Mod_Date__IDX" id="774C6976-B669-EDDF-41FE-C2BDDC01F9BB">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 11:26:39 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Sub_Date__IDX" id="849C3E42-C402-DC50-A84B-0D7C1D539A4B">
@@ -120,16 +122,19 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Software__IDX" id="E770EB41-ADB7-FF52-A3EA-517D252D5AE5">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Active_Status__IDX" id="F7D4DF87-6E42-651D-AB9C-F4C7470C9D83">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 </indexProxies>
 <foreignKeys>
@@ -137,36 +142,57 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Active_Environment_FK" id="2C149A8B-B385-5823-4E11-40A8E69F433E">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Active_Clients_FK" id="5D053CFB-B002-823B-DEB6-8AC806A69945">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Active_Software_FK" id="626BD25E-DC3E-EF18-5C32-DD77B1203FC4">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Active_TNumber_FK" id="75CF0B00-4619-FE4E-C439-CADE49401EAA">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:37:26 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Active_Priority_FK" id="95E44DE7-A1EA-E3C1-853D-E32E4CAD59EF">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Active_Ticket_Status_FK" id="997D7413-18F1-4C9A-FEB0-3B1CC1CA540F">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Active_Issue_type_FK" id="E768F010-FC7B-19E0-9319-24B13CDD0C74">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
@@ -178,18 +204,10 @@
 </PrimaryKey>
 </primaryKeys>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
-<TableCheckConstraint name="Active_Resonable_Date" id="E372D249-FAA2-6528-4D12-A77F8F40E5B7">
+<TableCheckConstraint name="Active_Resonable_Date_CK" id="E372D249-FAA2-6528-4D12-A77F8F40E5B7">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 17:17:47 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </TableCheckConstraint>
 </tableCheckConstraints>
-<uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Active_Ticket_Num__UN" id="7CFC94E0-AD15-E4A3-F4C5-D7D97526527D">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-01 16:56:33 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexSort>SORTED</indexSort>
-</UniqueKey>
-</uniqueKeys>
 </TableProxyOraclev11g>

@@ -29,16 +29,6 @@
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="Ticket_Number" id="9554B39E-479E-E320-305B-737AA8A87D01">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 16:18:19 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="ID" id="9AC6EF2E-F206-A6BB-9548-F214687E79DA">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 16:18:19 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="Priority" id="A7A150FA-DB3C-F13B-7581-897DFC5BDA3B">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
@@ -59,6 +49,11 @@
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Ticket_Number" id="FA443D52-8FE9-D05A-310C-ED854301E664">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:36:12 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+</ColumnProxy>
 </columnProxies>
 <indexProxies>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Raw_Number_IDX" id="1D151862-4FBD-32FC-E9C3-212EA6A31E61">
@@ -70,6 +65,7 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Raw_Due_Date_IDX" id="9C599838-6052-D2C2-2231-3A804244379A">
 <createdBy>Admin</createdBy>
@@ -85,6 +81,7 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Raw_Client_ID_IDX" id="D54B36F3-E65A-5C81-4CD8-F5CB0E8E941E">
 <createdBy>Admin</createdBy>
@@ -95,11 +92,13 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Raw_Environment_IDX" id="E5E19B83-3B85-1696-DA2A-5CA36AB1719F">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 </indexProxies>
 <foreignKeys>
@@ -107,26 +106,43 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Raw_Software_FK" id="1D293E0F-EE7C-D326-FC15-1D517B30D6EE">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Raw_TNumber_FK" id="4110DBB1-65D9-86F3-B585-E6044E25B64D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:36:12 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Raw_Priority_FK" id="4A0B9B34-2E7B-B8A8-62F5-0FD84EE4B2D7">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Raw_Environment_FK" id="A0BB9E86-E8A0-9719-0DE6-9C0A0491CF0E">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Raw_Clients_FK" id="A0CF8EB0-39F4-A4E2-2AA6-208347626D45">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
@@ -138,18 +154,10 @@
 </PrimaryKey>
 </primaryKeys>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
-<TableCheckConstraint name="Active_Ticketsv1_CK" id="F3BC81A4-37B6-A5F6-6939-1CD0B4D25498">
+<TableCheckConstraint name="Raw_Resonable_Date_CK" id="F3BC81A4-37B6-A5F6-6939-1CD0B4D25498">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:18:19 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </TableCheckConstraint>
 </tableCheckConstraints>
-<uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Raw_Ticket_Number_UN" id="4FC2BCC6-7F3C-A21C-332C-F4407B4F2439">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 16:18:19 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<indexSort>SORTED</indexSort>
-</UniqueKey>
-</uniqueKeys>
 </TableProxyOraclev11g>

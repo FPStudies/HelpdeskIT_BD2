@@ -50,10 +50,17 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Employees_Team__IDX" id="5F19B307-0C00-564D-AA51-AE5CC8FBDD69">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<bitmapIndex>true</bitmapIndex>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Employees_Email__IDX" id="BF6D35E9-A8C2-4196-C208-EAA5D2B42D71">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:04:40 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 </IndexProxy>
 </indexProxies>
@@ -62,11 +69,15 @@
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Employees_Team_FK" id="D334AD76-DF97-BC45-896F-618A7DFD81FD">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-01 16:56:33 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
+<deferrable>YES</deferrable>
+<initially>DEFERRED</initially>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>

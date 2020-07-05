@@ -4,8 +4,8 @@
 <createdTime>2020-05-10 12:09:35 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <source>CREATE OR REPLACE PROCEDURE Insert_Raw_Ticket_p 
-(p_Description IN VARCHAR2, p_Software IN VARCHAR2, p_Issue_Type IN VARCHAR2, p_Environment IN VARCHAR2, p_Client_ID IN NUMBER) AS 
+(p_Description IN VARCHAR2, p_Priority IN VARCHAR2, p_Software IN VARCHAR2, p_Issue_Type IN VARCHAR2, p_Environment IN VARCHAR2, p_Client_ID IN NUMBER) AS 
 BEGIN
- INSERT INTO Raw_Tickets(Description, Software, Issue_Type, Environment, Client_ID) VALUES (p_Description, p_Software, p_Issue_Type, p_Environment, p_Client_ID);
+ INSERT INTO Raw_Tickets(Description, Priority, Software, Issue_Type, Environment, Client_ID) VALUES (p_Description, p_Priority, p_Software, p_Issue_Type, p_Environment, p_Client_ID);
 END;</source>
 </StoredProcedureOraclev10g>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="Time_Diff_MV" directorySegmentName="seg_0" id="D0691F8D-438F-A940-9D7F-496195D5BDFD">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 11:29:42 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<defaultSegment>NO</defaultSegment>
+<nextDate>SYSDATE + 1/2</nextDate>
+<refresh>YES</refresh>
+<refreshType>FORCE</refreshType>
+<startDate>SYSDATE</startDate>
+<subquery><![CDATA[SELECT Due_Date - Modification_Date AS Closing_Time_Difference FROM ARCHIVED_TICKETS WHERE UPPER(TICKET_STATUS) IN ('DROPPED', 'SOLVED')]]></subquery>
+<subqueryNeedsMigration>false</subqueryNeedsMigration>
+<with>ROWID</with>
+</SnapshotOraclev11g>

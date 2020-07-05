@@ -20,6 +20,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Ticket_Number" id="348A3BE3-85AD-69BE-B134-338423CB7F67">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:40:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="034EB5F8-F133-58A2-FE76-3B31DA48BE45" referredColumn="0B15D3BB-0238-171F-993B-FF9E34B0F96F"/>
+</associations>
+</Column>
 <Column name="Sender" id="4201D45C-6CB9-0AA7-0898-5EB3804EE4E5">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 15:56:42 UTC</createdTime>
@@ -44,7 +58,7 @@
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Date" id="C57CF3A9-2F87-093D-36D0-A040DD9A5C95">
+<Column name="Receive_Date" id="C57CF3A9-2F87-093D-36D0-A040DD9A5C95">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 16:02:27 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
@@ -77,17 +91,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Ticket_Number" id="13045B8C-09D8-AB6A-02A0-0F548A801FEB">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 15:56:42 UTC</createdTime>
-<generatorID>D5A859F0-0E37-D15F-4D48-16D71A68F8DE</generatorID>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -137,7 +140,16 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="13045B8C-09D8-AB6A-02A0-0F548A801FEB"/>
+<colUsage columnID="348A3BE3-85AD-69BE-B134-338423CB7F67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49AF3238-BC1C-623B-F690-7F4D11ABD33E" name="Messages_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 11:25:41 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C57CF3A9-2F87-093D-36D0-A040DD9A5C95"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="3AADF2D4-E2E6-6784-F53D-B06560B844DF" name="Messages_Messages_FK">
@@ -149,6 +161,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C9BC0E2B-C279-9D62-B08D-862FFD0D1167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CE7C805-BF05-D5D1-CC28-EA31AC109B5A" name="Messages_TNumber_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 12:40:35 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="348A3BE3-85AD-69BE-B134-338423CB7F67"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

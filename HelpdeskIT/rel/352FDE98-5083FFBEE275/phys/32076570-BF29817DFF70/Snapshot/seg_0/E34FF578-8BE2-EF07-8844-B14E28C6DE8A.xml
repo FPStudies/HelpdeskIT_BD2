@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="All_New_Count_MV" directorySegmentName="seg_0" id="E34FF578-8BE2-EF07-8844-B14E28C6DE8A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-28 23:20:12 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<defaultSegment>NO</defaultSegment>
+<nextDate>SYSDATE + 1/24</nextDate>
+<refresh>YES</refresh>
+<refreshType>FORCE</refreshType>
+<startDate>SYSDATE</startDate>
+<subquery><![CDATA[SELECT to_char(Submission_Date, 'YYYY') AS Year, to_char(Submission_Date, 'MM') AS Month, to_char(Submission_Date, 'DD') AS Day, to_char(Submission_Date,'HH24') AS Hour, COUNT(*) AS Count FROM TICKETS GROUP BY ROLLUP (Ticket_Number, to_char(Submission_Date, 'YYYY'), to_char(Submission_Date, 'MM'),to_char(Submission_Date, 'DD'), to_char(Submission_Date,'HH24'))]]></subquery>
+<subqueryNeedsMigration>false</subqueryNeedsMigration>
+<with>ROWID</with>
+</SnapshotOraclev11g>

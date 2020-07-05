@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="Processing_Time_MV" directorySegmentName="seg_0" id="737597DF-6460-66CF-2006-C0CAFFDCE4A9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-28 23:58:24 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<defaultSegment>NO</defaultSegment>
+<nextDate>SYSDATE + 1</nextDate>
+<refresh>YES</refresh>
+<refreshType>FORCE</refreshType>
+<startDate>SYSDATE</startDate>
+<subquery><![CDATA[SELECT (Modification_Date-Submission_Date) AS Processing_Time FROM ARCHIVED_TICKETS WHERE UPPER(TICKET_STATUS) IN ('DROPPED', 'SOLVED')]]></subquery>
+<subqueryNeedsMigration>false</subqueryNeedsMigration>
+<with>ROWID</with>
+</SnapshotOraclev11g>

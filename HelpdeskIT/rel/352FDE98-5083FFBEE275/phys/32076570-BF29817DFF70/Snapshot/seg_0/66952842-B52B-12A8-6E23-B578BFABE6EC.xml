@@ -8,7 +8,7 @@
 <refresh>YES</refresh>
 <refreshType>FORCE</refreshType>
 <startDate>SYSDATE</startDate>
-<subquery><![CDATA[SELECT COUNT(*) AS Count FROM ACTIVE_TICKET]]></subquery>
+<subquery><![CDATA[SELECT COUNT(*) AS Count FROM ACTIVE_TICKETS]]></subquery>
 <subqueryNeedsMigration>false</subqueryNeedsMigration>
 <with>ROWID</with>
 </SnapshotOraclev11g>

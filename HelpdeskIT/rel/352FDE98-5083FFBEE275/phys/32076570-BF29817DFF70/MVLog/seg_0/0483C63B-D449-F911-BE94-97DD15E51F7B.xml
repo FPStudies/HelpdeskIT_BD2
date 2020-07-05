@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MaterializedViewLogOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.MaterializedViewLogOraclev9i" name="Archived_Tickets" directorySegmentName="seg_0" id="0483C63B-D449-F911-BE94-97DD15E51F7B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-21 20:54:33 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<rowIDLogged>NO</rowIDLogged>
+<pkLogged>NO</pkLogged>
+<newValues>NO</newValues>
+<cache>No cache</cache>
+<parallel>NO</parallel>
+<sequenceLogged>NO</sequenceLogged>
+<logging>NO</logging>
+<bufferPool>DEFAULT</bufferPool>
+<maxExtentUnlimited>false</maxExtentUnlimited>
+<columns>E03C283A-5B00-2F01-DDF4-F5D81E1B5376,8C4B439F-DD20-6198-842E-AE6830FF3209,9264972E-18AA-D7C8-D1E7-345BFAE6D91C,615B1B38-8B04-1812-8AA9-793A1BF71639,65B420BA-4831-2907-7942-9EBB2CEC8AD5,1AACB487-B868-1736-ED91-FF25475127A1,96F7BDC8-E965-6B81-567E-CA34F81D7E4F,8D57628C-7774-8B19-0228-1EA179A47E21,50C91685-01CC-98A8-28AC-43367174D0B5,55B42C74-8F22-0CAF-4728-43BE4D8BE2AE,51B029D2-E972-EF1C-6DAD-BA07C8D973E2</columns>
+<columnNames>CLIENT_ID,DUE_DATE,EMPLOYEE_ID,ENVIRONMENT,ISSUE_TYPE,MODIFICATION_DATE,PRIORITY,SOFTWARE,SUBMISSION_DATE,TICKET_NUMBER,TICKET_STATUS</columnNames>
+<tableProxy>34E87D11-ED52-56F5-D122-5A2B147CDDF2</tableProxy>
+<tableName>Archived_Tickets</tableName>
+<refreshType> </refreshType>
+<objectIDLogged>NO</objectIDLogged>
+</MaterializedViewLogOraclev9i>

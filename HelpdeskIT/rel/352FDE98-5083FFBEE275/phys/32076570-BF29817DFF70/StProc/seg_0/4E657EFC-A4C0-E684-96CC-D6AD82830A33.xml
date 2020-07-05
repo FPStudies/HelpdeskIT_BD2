@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="Delegate_Ticket_p" directorySegmentName="seg_0" id="4E657EFC-A4C0-E684-96CC-D6AD82830A33">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-29 12:11:17 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<source>CREATE OR REPLACE PROCEDURE Delegate_Ticket_p (p_Ticket_Number IN NUMBER, p_Employee_ID IN NUMBER) AS 
+BEGIN
+
+    UPDATE ACTIVE_TICKETS SET TICKET_STATUS = &apos;Delegated&apos;, EMPLOYEE_ID = p_Employee_ID WHERE TICKET_NUMBER = p_Ticket_Number;
+ 
+END;</source>
+</StoredProcedureOraclev10g>

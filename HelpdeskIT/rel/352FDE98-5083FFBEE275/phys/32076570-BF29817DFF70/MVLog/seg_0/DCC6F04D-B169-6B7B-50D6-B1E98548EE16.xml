@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MaterializedViewLogOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.MaterializedViewLogOraclev9i" name="Raw_Tickets" directorySegmentName="seg_0" id="DCC6F04D-B169-6B7B-50D6-B1E98548EE16">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-28 23:09:12 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<rowIDLogged>NO</rowIDLogged>
+<pkLogged>NO</pkLogged>
+<newValues>NO</newValues>
+<cache>No cache</cache>
+<parallel>NO</parallel>
+<sequenceLogged>NO</sequenceLogged>
+<logging>NO</logging>
+<bufferPool>DEFAULT</bufferPool>
+<maxExtentUnlimited>false</maxExtentUnlimited>
+<columns>4D85F9EE-E67F-C2C4-A41C-9C2DC4CC32EE,B904216C-84D5-B766-CDFC-EB11F53B851B,C3C61A84-3B72-0DD4-A097-BB29DABC372D,84495B5E-FD98-EF76-08B3-A27C3D7166E1,A7A150FA-DB3C-F13B-7581-897DFC5BDA3B,5A4F1197-F153-495C-19B9-E4739BDE19F6,E56C7D3B-8B6E-1CD9-2B28-0C1DC135B844</columns>
+<columnNames>CLIENT_ID,DUE_DATE,ENVIRONMENT,ISSUE_TYPE,PRIORITY,SOFTWARE,SUBMISSION_DATE</columnNames>
+<tableProxy>4F5BF1A3-F094-C9CF-EC64-43D7C46B197A</tableProxy>
+<tableName>Raw_Tickets</tableName>
+<refreshType> </refreshType>
+<objectIDLogged>NO</objectIDLogged>
+</MaterializedViewLogOraclev9i>

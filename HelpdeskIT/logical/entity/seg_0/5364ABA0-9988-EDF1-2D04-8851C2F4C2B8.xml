@@ -5,7 +5,6 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -17,13 +16,38 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="F11C2FCA-8BA9-9A98-7AF0-5671EEA96CB8">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-16 01:50:34 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ticket_Number" id="11F0727C-C265-DD12-476A-A725F4BF94E5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-19 13:00:03 UTC</createdTime>
+<generatorID>FAF30358-C3EF-22C1-1DEB-1C27AA402206</generatorID>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+</engineerTo>
+<referedAttribute>B9D30D13-7424-D6D3-1A9A-11A0600CB60C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Attempted_Solutions" id="C8AA12D6-6CD7-B98B-378C-D30EAE1DB849">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 13:39:08 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,7 +61,6 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,14 +74,13 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
 </engineerTo>
 <referedAttribute>48E72975-AF6F-2BD1-49B1-91D518D0CBEE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Employee_ID" id="EA3F75C2-5D82-EDA8-0C95-ACCAC4F84F4E">
 <createdBy>Admin</createdBy>
@@ -67,7 +89,6 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <engineerTo>
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-<item key="B654A68E-A0F6-C97A-C3E3-3A0ADBF2701C" value="true"/>
 </engineerTo>
 <referedAttribute>33E3A889-D89E-EB69-7077-24964B761EC8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,4 +97,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFEBAFD8-0210-81A6-7632-B15BCF902EFB" name="Archived PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-16 01:50:37 UTC</createdTime>
+<ownerDesignName>HelpdeskIT</ownerDesignName>
+<engineerTo>
+<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F11C2FCA-8BA9-9A98-7AF0-5671EEA96CB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -5,8 +5,8 @@
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <actions>INSERT</actions>
 <body><![CDATA[BEGIN
-SELECT Active_Tickets_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
-SELECT SYSDATE INTO :NEW.Modification_Dat FROM DUAL;
+SELECT SYSDATE INTO :NEW.Modification_Date FROM DUAL;
+:NEW.Ticket_Status := 'Received';
 END;]]></body>
 <triggerTime>BEFORE</triggerTime>
 <table>F6C8233C-7AB8-6D21-AC46-CDA1275918FC</table>

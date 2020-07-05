@@ -1,18 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Raw_Tickets_Insert" directorySegmentName="seg_0" id="B65440F3-5CCA-E430-59E0-65D6F396E0E4">
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Raw_Tickets_Insert_TRG" directorySegmentName="seg_0" id="B65440F3-5CCA-E430-59E0-65D6F396E0E4">
 <createdBy>Admin</createdBy>
 <createdTime>2020-05-07 17:24:31 UTC</createdTime>
 <ownerDesignName>HelpdeskIT</ownerDesignName>
 <actions>INSERT</actions>
 <body><![CDATA[DECLARE
+v_Ticket_number NUMBER;
 v_response_time NUMBER(4);
 BEGIN
-SELECT Raw_Tickets_ID_SEQ.nextval INTO :NEW.ID FROM DUAL;
-SELECT Ticket_Number_SEQ.nextval INTO :NEW.Ticket_Number FROM DUAL;
-SELECT SYSDATE INTO :NEW.Submission_Date FROM DUAL;
-:NEW.Priority := "Normal";
+SELECT Ticket_Number_SEQ.nextval INTO v_Ticket_number FROM DUAL;
 
-v_response_time := Find_Response_Time_f(:NEW.Clinet_ID, :NEW.Software);
+INSERT INTO Ticket_Identyfication VALUES(v_Ticket_number);
+
+:NEW.Ticket_Number := v_Ticket_number;
+SELECT SYSDATE INTO :NEW.Submission_Date FROM DUAL;
+
+v_response_time := Find_Response_Time_f(:NEW.Client_ID, :NEW.Software);
 IF v_response_time IS NOT NULL THEN
 :NEW.Due_Date := :NEW.Submission_Date + v_response_time/24;
 END IF;

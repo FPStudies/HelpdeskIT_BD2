@@ -15,30 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="DDB2AE52-0893-758E-8714-D528490D26FD">
-<createdBy>Admin</createdBy>
-<createdTime>2020-04-17 19:02:30 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Ticket_Number" id="68515BBB-C683-0433-966F-A7FD9854DA82">
-<createdBy>Admin</createdBy>
-<createdTime>2020-05-07 14:58:45 UTC</createdTime>
-<ownerDesignName>HelpdeskIT</ownerDesignName>
-<engineerTo>
-<item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Description" id="D6D987E5-FBAF-16C2-2265-83B82E122211">
 <createdBy>filip</createdBy>
 <createdTime>2020-04-07 22:25:29 UTC</createdTime>
@@ -103,7 +79,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Environment" id="4ADD3DE8-1CA8-D485-580E-F220BADB899F">
 <createdBy>adrian_chlebosz</createdBy>
@@ -162,9 +138,6 @@
 <item key="352FDE98-6057-2A0A-43B7-5083FFBEE275" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>DDB2AE52-0893-758E-8714-D528490D26FD</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
